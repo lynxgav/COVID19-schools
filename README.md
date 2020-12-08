@@ -21,6 +21,17 @@ We digitized data from the publication
 ### Hospitalization data
 
 
+### Contact matrices
+
+We used contact patterns from the preprint:
+
+> Jantien A. Backer, Liesbeth Mollema, R.A. Eric Vos, Don Klinkenberg, Fiona R.M. van der Klis, Hester E. de Melker, Susan van den Hof, Jacco Wallinga
+  The impact of physical distancing measures against COVID-19 transmission on contacts and mixing patterns in the Netherlands: 
+  repeated cross-sectional surveys in 2016/2017, April 2020 and June 2020
+  *medRxiv* 2020.05.18.20101501; doi: [https://doi.org/10.1101/2020.05.18.20101501](https://doi.org/10.1101/2020.05.18.20101501)
+  
+These are added to the `data` folder for convenience.
+
 ## Model 
 
 ### Inference

@@ -1,0 +1,601 @@
+survey	contact_type	part_age	cont_age	m_est
+baseline	all	[0,5)	[0,5)	3.494590509338394
+baseline	all	[0,5)	[5,10)	1.4273129511492026
+baseline	all	[0,5)	[10,20)	1.265152960542878
+baseline	all	[0,5)	[20,30)	1.496213371794675
+baseline	all	[0,5)	[30,40)	1.967564569143683
+baseline	all	[0,5)	[40,50)	1.4340672130023078
+baseline	all	[0,5)	[50,60)	0.976926938382506
+baseline	all	[0,5)	[60,70)	0.5746873506574687
+baseline	all	[0,5)	[70,80)	0.19849708022643867
+baseline	all	[0,5)	[80,Inf]	0.06106990348617109
+baseline	all	[5,10)	[0,5)	1.3399121246201668
+baseline	all	[5,10)	[5,10)	7.875185522012958
+baseline	all	[5,10)	[10,20)	3.5181920208761595
+baseline	all	[5,10)	[20,30)	1.974544756732102
+baseline	all	[5,10)	[30,40)	2.0088654851707193
+baseline	all	[5,10)	[40,50)	1.8754304985618355
+baseline	all	[5,10)	[50,60)	1.085702366687763
+baseline	all	[5,10)	[60,70)	0.5693401809919952
+baseline	all	[5,10)	[70,80)	0.23536949804966442
+baseline	all	[5,10)	[80,Inf]	0.06759336888389147
+baseline	all	[10,20)	[0,5)	0.5474961773320518
+baseline	all	[10,20)	[5,10)	1.6217958756588196
+baseline	all	[10,20)	[10,20)	9.372980340512816
+baseline	all	[10,20)	[20,30)	2.9398776327133365
+baseline	all	[10,20)	[30,40)	1.8929965901945904
+baseline	all	[10,20)	[40,50)	2.1421668924585897
+baseline	all	[10,20)	[50,60)	1.4002006267382345
+baseline	all	[10,20)	[60,70)	0.6026966185461295
+baseline	all	[10,20)	[70,80)	0.2532536461012461
+baseline	all	[10,20)	[80,Inf]	0.10041094702778358
+baseline	all	[20,30)	[0,5)	0.6052669806097802
+baseline	all	[20,30)	[5,10)	0.8508656091460638
+baseline	all	[20,30)	[10,20)	2.74815490843337
+baseline	all	[20,30)	[20,30)	4.660998436670365
+baseline	all	[20,30)	[30,40)	2.527614107914557
+baseline	all	[20,30)	[40,50)	2.177938801714926
+baseline	all	[20,30)	[50,60)	1.6977296390820926
+baseline	all	[20,30)	[60,70)	0.7813622354902086
+baseline	all	[20,30)	[70,80)	0.33861788398205034
+baseline	all	[20,30)	[80,Inf]	0.21078100279138473
+baseline	all	[30,40)	[0,5)	0.8371042176691904
+baseline	all	[30,40)	[5,10)	0.9104223994342944
+baseline	all	[30,40)	[10,20)	1.861051658804768
+baseline	all	[30,40)	[20,30)	2.6583117537801773
+baseline	all	[30,40)	[30,40)	3.6401956144690932
+baseline	all	[30,40)	[40,50)	2.606971874603042
+baseline	all	[30,40)	[50,60)	1.724865967805373
+baseline	all	[30,40)	[60,70)	0.9087630749504338
+baseline	all	[30,40)	[70,80)	0.4044531183673342
+baseline	all	[30,40)	[80,Inf]	0.2391144196028352
+baseline	all	[40,50)	[0,5)	0.5308569408933109
+baseline	all	[40,50)	[5,10)	0.7395173022525432
+baseline	all	[40,50)	[10,20)	1.8324109461888634
+baseline	all	[40,50)	[20,30)	1.9929681508886685
+baseline	all	[40,50)	[30,40)	2.2682919898534637
+baseline	all	[40,50)	[40,50)	3.440063139165821
+baseline	all	[40,50)	[50,60)	1.9333562131618074
+baseline	all	[40,50)	[60,70)	0.9521929637675718
+baseline	all	[40,50)	[70,80)	0.4629846505990508
+baseline	all	[40,50)	[80,Inf]	0.2350909493325399
+baseline	all	[50,60)	[0,5)	0.344564670309485
+baseline	all	[50,60)	[5,10)	0.4079036287712214
+baseline	all	[50,60)	[10,20)	1.1411979324034855
+baseline	all	[50,60)	[20,30)	1.4802060974649558
+baseline	all	[50,60)	[30,40)	1.4299471056713693
+baseline	all	[50,60)	[40,50)	1.8421059308668486
+baseline	all	[50,60)	[50,60)	2.2801806863360388
+baseline	all	[50,60)	[60,70)	1.1851089490774733
+baseline	all	[50,60)	[70,80)	0.5416602945611289
+baseline	all	[50,60)	[80,Inf]	0.2973048128224239
+baseline	all	[60,70)	[0,5)	0.24055132497775442
+baseline	all	[60,70)	[5,10)	0.2538583154662626
+baseline	all	[60,70)	[10,20)	0.5829571924244691
+baseline	all	[60,70)	[20,30)	0.8084953259351493
+baseline	all	[60,70)	[30,40)	0.8940959717203579
+baseline	all	[60,70)	[40,50)	1.0767111941124612
+baseline	all	[60,70)	[50,60)	1.406474841117804
+baseline	all	[60,70)	[60,70)	1.8732402925786806
+baseline	all	[60,70)	[70,80)	0.9156915117339641
+baseline	all	[60,70)	[80,Inf]	0.3855620356573845
+baseline	all	[70,80)	[0,5)	0.12549511926993515
+baseline	all	[70,80)	[5,10)	0.15851542830980753
+baseline	all	[70,80)	[10,20)	0.36998828987029025
+baseline	all	[70,80)	[20,30)	0.5292006557712224
+baseline	all	[70,80)	[30,40)	0.6010208750594326
+baseline	all	[70,80)	[40,50)	0.7907371074506658
+baseline	all	[70,80)	[50,60)	0.9709349827124683
+baseline	all	[70,80)	[60,70)	1.3830916168363296
+baseline	all	[70,80)	[70,80)	1.9937579856415948
+baseline	all	[70,80)	[80,Inf]	0.799441224578396
+baseline	all	[80,Inf]	[0,5)	0.06969966175003825
+baseline	all	[80,Inf]	[5,10)	0.08217968514059089
+baseline	all	[80,Inf]	[10,20)	0.2648260563606529
+baseline	all	[80,Inf]	[20,30)	0.5946718651446233
+baseline	all	[80,Inf]	[30,40)	0.6414663288787327
+baseline	all	[80,Inf]	[40,50)	0.724838546001191
+baseline	all	[80,Inf]	[50,60)	0.9620439213576377
+baseline	all	[80,Inf]	[60,70)	1.0513231300744927
+baseline	all	[80,Inf]	[70,80)	1.4432739799349845
+baseline	all	[80,Inf]	[80,Inf]	1.1852686865783029
+baseline	community	[0,5)	[0,5)	2.8296414929734603
+baseline	community	[0,5)	[5,10)	1.1698030713475958
+baseline	community	[0,5)	[10,20)	1.1322390547131307
+baseline	community	[0,5)	[20,30)	1.125880240234664
+baseline	community	[0,5)	[30,40)	1.2330579983106473
+baseline	community	[0,5)	[40,50)	1.1041392119973612
+baseline	community	[0,5)	[50,60)	0.9011806950799955
+baseline	community	[0,5)	[60,70)	0.5536360022167072
+baseline	community	[0,5)	[70,80)	0.2000324888548088
+baseline	community	[0,5)	[80,Inf]	0.06039934308510147
+baseline	community	[5,10)	[0,5)	1.0981678897382574
+baseline	community	[5,10)	[5,10)	6.6642026301223405
+baseline	community	[5,10)	[10,20)	3.245850290879602
+baseline	community	[5,10)	[20,30)	1.7503070028604473
+baseline	community	[5,10)	[30,40)	1.4451520056001994
+baseline	community	[5,10)	[40,50)	1.3280923778386025
+baseline	community	[5,10)	[50,60)	0.9325959080151316
+baseline	community	[5,10)	[60,70)	0.5427458887168904
+baseline	community	[5,10)	[70,80)	0.23104001925149434
+baseline	community	[5,10)	[80,Inf]	0.06986730530323391
+baseline	community	[10,20)	[0,5)	0.48997815204429895
+baseline	community	[10,20)	[5,10)	1.4962517734142953
+baseline	community	[10,20)	[10,20)	8.36473242249451
+baseline	community	[10,20)	[20,30)	2.818006896730883
+baseline	community	[10,20)	[30,40)	1.6405009943820277
+baseline	community	[10,20)	[40,50)	1.5518108819772412
+baseline	community	[10,20)	[50,60)	1.0941153860715473
+baseline	community	[10,20)	[60,70)	0.5653179088326695
+baseline	community	[10,20)	[70,80)	0.2543744965006043
+baseline	community	[10,20)	[80,Inf]	0.10025809645386521
+baseline	community	[20,30)	[0,5)	0.45545553636366864
+baseline	community	[20,30)	[5,10)	0.7542386301981665
+baseline	community	[20,30)	[10,20)	2.634231286918278
+baseline	community	[20,30)	[20,30)	4.337406995893873
+baseline	community	[20,30)	[30,40)	2.3439716416021805
+baseline	community	[20,30)	[40,50)	1.8767278738336926
+baseline	community	[20,30)	[50,60)	1.38386415146392
+baseline	community	[20,30)	[60,70)	0.7073507163782057
+baseline	community	[20,30)	[70,80)	0.3331744513788723
+baseline	community	[20,30)	[80,Inf]	0.19256037657534383
+baseline	community	[30,40)	[0,5)	0.5246060477807282
+baseline	community	[30,40)	[5,10)	0.6549455200994936
+baseline	community	[30,40)	[10,20)	1.6128142555802258
+baseline	community	[30,40)	[20,30)	2.465173826622544
+baseline	community	[30,40)	[30,40)	3.3127795324014246
+baseline	community	[30,40)	[40,50)	2.392518200560706
+baseline	community	[30,40)	[50,60)	1.5915444507213923
+baseline	community	[30,40)	[60,70)	0.8582516833349187
+baseline	community	[30,40)	[70,80)	0.4039687449612349
+baseline	community	[30,40)	[80,Inf]	0.22686394148314598
+baseline	community	[40,50)	[0,5)	0.408726297375404
+baseline	community	[40,50)	[5,10)	0.5236920332161588
+baseline	community	[40,50)	[10,20)	1.327414962508566
+baseline	community	[40,50)	[20,30)	1.717338804497446
+baseline	community	[40,50)	[30,40)	2.0816993655572094
+baseline	community	[40,50)	[40,50)	3.0536894257614486
+baseline	community	[40,50)	[50,60)	1.7913855788149753
+baseline	community	[40,50)	[60,70)	0.9343442636681989
+baseline	community	[40,50)	[70,80)	0.46450110703912023
+baseline	community	[40,50)	[80,Inf]	0.23262179333846839
+baseline	community	[50,60)	[0,5)	0.3178485790048195
+baseline	community	[50,60)	[5,10)	0.35038117285007364
+baseline	community	[50,60)	[10,20)	0.8917333916071326
+baseline	community	[50,60)	[20,30)	1.2065552608875036
+baseline	community	[50,60)	[30,40)	1.3194202812124007
+baseline	community	[50,60)	[40,50)	1.7068374768685808
+baseline	community	[50,60)	[50,60)	1.9162561860676106
+baseline	community	[50,60)	[60,70)	1.0905026031681981
+baseline	community	[50,60)	[70,80)	0.5441526576582598
+baseline	community	[50,60)	[80,Inf]	0.2933250005596381
+baseline	community	[60,70)	[0,5)	0.23173950264408624
+baseline	community	[60,70)	[5,10)	0.2420003544572118
+baseline	community	[60,70)	[10,20)	0.5468018630487002
+baseline	community	[60,70)	[20,30)	0.7319128663375176
+baseline	community	[60,70)	[30,40)	0.844398614798674
+baseline	community	[60,70)	[40,50)	1.0565274813189458
+baseline	community	[60,70)	[50,60)	1.2941975985063214
+baseline	community	[60,70)	[60,70)	1.4435636799892384
+baseline	community	[60,70)	[70,80)	0.8219947581690736
+baseline	community	[60,70)	[80,Inf]	0.3909680278756777
+baseline	community	[70,80)	[0,5)	0.12646553693016818
+baseline	community	[70,80)	[5,10)	0.15559917449207067
+baseline	community	[70,80)	[10,20)	0.3716252903538861
+baseline	community	[70,80)	[20,30)	0.5206939273615714
+baseline	community	[70,80)	[30,40)	0.6003008439415646
+baseline	community	[70,80)	[40,50)	0.79332639220437
+baseline	community	[70,80)	[50,60)	0.9754026804497443
+baseline	community	[70,80)	[60,70)	1.2415689079540528
+baseline	community	[70,80)	[70,80)	1.511829252278397
+baseline	community	[70,80)	[80,Inf]	0.6925382582849546
+baseline	community	[80,Inf]	[0,5)	0.06893443140652178
+baseline	community	[80,Inf]	[5,10)	0.08494416367967511
+baseline	community	[80,Inf]	[10,20)	0.2644210496515762
+baseline	community	[80,Inf]	[20,30)	0.5432662392621903
+baseline	community	[80,Inf]	[30,40)	0.6086025438744415
+baseline	community	[80,Inf]	[40,50)	0.7172250180932794
+baseline	community	[80,Inf]	[50,60)	0.9491686828474499
+baseline	community	[80,Inf]	[60,70)	1.066064656142335
+baseline	community	[80,Inf]	[70,80)	1.2502739590029799
+baseline	community	[80,Inf]	[80,Inf]	0.9223309329994757
+baseline	household	[0,5)	[0,5)	0.4476279234151402
+baseline	household	[0,5)	[5,10)	0.3359463864704091
+baseline	household	[0,5)	[10,20)	0.1549284928641599
+baseline	household	[0,5)	[20,30)	0.34287119373375446
+baseline	household	[0,5)	[30,40)	1.062302174484475
+baseline	household	[0,5)	[40,50)	0.2199205964234077
+baseline	household	[0,5)	[50,60)	0.016451997768150307
+baseline	household	[0,5)	[60,70)	0.0017966389932744407
+baseline	household	[0,5)	[70,80)	6.447431448829412e-4
+baseline	household	[0,5)	[80,Inf]	4.576276792038121e-4
+baseline	household	[5,10)	[0,5)	0.3153813933686285
+baseline	household	[5,10)	[5,10)	0.43722487602791815
+baseline	household	[5,10)	[10,20)	0.47562895436303565
+baseline	household	[5,10)	[20,30)	0.10538339346773773
+baseline	household	[5,10)	[30,40)	0.7105778880741932
+baseline	household	[5,10)	[40,50)	0.6814081922434965
+baseline	household	[5,10)	[50,60)	0.06960629016164545
+baseline	household	[5,10)	[60,70)	0.008745510249811508
+baseline	household	[5,10)	[70,80)	0.0018302819439329255
+baseline	household	[5,10)	[80,Inf]	0.0011088758458032875
+baseline	household	[10,20)	[0,5)	0.06704397555968214
+baseline	household	[10,20)	[5,10)	0.21925438237505035
+baseline	household	[10,20)	[10,20)	0.8383637467056393
+baseline	household	[10,20)	[20,30)	0.2234315209447799
+baseline	household	[10,20)	[30,40)	0.16979839556513526
+baseline	household	[10,20)	[40,50)	0.8721485808668551
+baseline	household	[10,20)	[50,60)	0.3966773182055194
+baseline	household	[10,20)	[60,70)	0.028453772557145044
+baseline	household	[10,20)	[70,80)	0.005297435343131996
+baseline	household	[10,20)	[80,Inf]	0.005714759255384165
+baseline	household	[20,30)	[0,5)	0.13870345456139238
+baseline	household	[20,30)	[5,10)	0.045410083546640695
+baseline	household	[20,30)	[10,20)	0.20886149282657399
+baseline	household	[20,30)	[20,30)	0.5239283242661003
+baseline	household	[20,30)	[30,40)	0.10309819298215459
+baseline	household	[20,30)	[40,50)	0.12460618817889269
+baseline	household	[20,30)	[50,60)	0.37140621972587307
+baseline	household	[20,30)	[60,70)	0.0894018323965858
+baseline	household	[20,30)	[70,80)	0.008959380570978144
+baseline	household	[20,30)	[80,Inf]	0.002094066024759752
+baseline	household	[30,40)	[0,5)	0.4519628214893168
+baseline	household	[30,40)	[5,10)	0.3220391497823954
+baseline	household	[30,40)	[10,20)	0.1669389494152802
+baseline	household	[30,40)	[20,30)	0.10842879606706833
+baseline	household	[30,40)	[30,40)	0.47165391800027673
+baseline	household	[30,40)	[40,50)	0.12913310982755635
+baseline	household	[30,40)	[50,60)	0.041458213289858575
+baseline	household	[30,40)	[60,70)	0.033775549679590525
+baseline	household	[30,40)	[70,80)	0.007231256214965746
+baseline	household	[30,40)	[80,Inf]	0.002475862718062622
+baseline	household	[40,50)	[0,5)	0.0814098513154767
+baseline	household	[40,50)	[5,10)	0.26869286138500925
+baseline	household	[40,50)	[10,20)	0.7460485103216047
+baseline	household	[40,50)	[20,30)	0.11402408622835083
+baseline	household	[40,50)	[30,40)	0.11235457317282989
+baseline	household	[40,50)	[40,50)	0.4358956237774684
+baseline	household	[40,50)	[50,60)	0.11056895326530704
+baseline	household	[40,50)	[60,70)	0.016464597435209217
+baseline	household	[40,50)	[70,80)	0.008799900749479552
+baseline	household	[40,50)	[80,Inf]	0.005543675999000842
+baseline	household	[50,60)	[0,5)	0.005802700406956975
+baseline	household	[50,60)	[5,10)	0.026151208899946446
+baseline	household	[50,60)	[10,20)	0.32329688887101055
+baseline	household	[50,60)	[20,30)	0.3238188516199712
+baseline	household	[50,60)	[30,40)	0.03437031351598819
+baseline	household	[50,60)	[40,50)	0.10534638358170581
+baseline	household	[50,60)	[50,60)	0.46393326897819653
+baseline	household	[50,60)	[60,70)	0.10334041905499675
+baseline	household	[50,60)	[70,80)	0.009024090316707157
+baseline	household	[50,60)	[80,Inf]	0.0034139371431317145
+baseline	household	[60,70)	[0,5)	7.520117112708376e-4
+baseline	household	[60,70)	[5,10)	0.003899239366538243
+baseline	household	[60,70)	[10,20)	0.02752267839896868
+baseline	household	[60,70)	[20,30)	0.09250750566748249
+baseline	household	[60,70)	[30,40)	0.03323118649318079
+baseline	household	[60,70)	[40,50)	0.01861744868632216
+baseline	household	[60,70)	[50,60)	0.12264089684349695
+baseline	household	[60,70)	[60,70)	0.5467570300670156
+baseline	household	[60,70)	[70,80)	0.09339930041026899
+baseline	household	[60,70)	[80,Inf]	0.006959466475715085
+baseline	household	[70,80)	[0,5)	4.07616613435612e-4
+baseline	household	[70,80)	[5,10)	0.0012326001215528823
+baseline	household	[70,80)	[10,20)	0.00773930649467278
+baseline	household	[70,80)	[20,30)	0.01400218749819744
+baseline	household	[70,80)	[30,40)	0.01074585372503443
+baseline	household	[70,80)	[40,50)	0.015029776661514426
+baseline	household	[70,80)	[50,60)	0.016176011311746452
+baseline	household	[70,80)	[60,70)	0.14107238922640872
+baseline	household	[70,80)	[70,80)	0.49686507436201166
+baseline	household	[70,80)	[80,Inf]	0.07963394262074464
+baseline	household	[80,Inf]	[0,5)	5.223002916907158e-4
+baseline	household	[80,Inf]	[5,10)	0.0013481355918437475
+baseline	household	[80,Inf]	[10,20)	0.015072906141155177
+baseline	household	[80,Inf]	[20,30)	0.005908187241490814
+baseline	household	[80,Inf]	[30,40)	0.0066418969162155336
+baseline	household	[80,Inf]	[40,50)	0.01709324848124368
+baseline	household	[80,Inf]	[50,60)	0.011047581537655655
+baseline	household	[80,Inf]	[60,70)	0.018976561332599486
+baseline	household	[80,Inf]	[70,80)	0.14377063127638465
+baseline	household	[80,Inf]	[80,Inf]	0.2915783400322284
+physical distancing	all	[0,5)	[0,5)	0.9111107464609709
+physical distancing	all	[0,5)	[5,10)	0.7124995193083035
+physical distancing	all	[0,5)	[10,20)	1.1624664107365654
+physical distancing	all	[0,5)	[20,30)	1.0394990706197154
+physical distancing	all	[0,5)	[30,40)	0.8515873517417618
+physical distancing	all	[0,5)	[40,50)	0.6515380304587157
+physical distancing	all	[0,5)	[50,60)	0.4530691179247119
+physical distancing	all	[0,5)	[60,70)	0.21813102522731115
+physical distancing	all	[0,5)	[70,80)	0.07922819075137645
+physical distancing	all	[0,5)	[80,Inf]	0.019645986318054778
+physical distancing	all	[5,10)	[0,5)	0.6725922951331946
+physical distancing	all	[5,10)	[5,10)	0.8860566099361501
+physical distancing	all	[5,10)	[10,20)	1.3630865718805851
+physical distancing	all	[5,10)	[20,30)	1.1414483197644003
+physical distancing	all	[5,10)	[30,40)	0.9067713925164771
+physical distancing	all	[5,10)	[40,50)	0.7334062329952306
+physical distancing	all	[5,10)	[50,60)	0.5171744877487856
+physical distancing	all	[5,10)	[60,70)	0.25112153025063
+physical distancing	all	[5,10)	[70,80)	0.09990417542729413
+physical distancing	all	[5,10)	[80,Inf]	0.028022008157339257
+physical distancing	all	[10,20)	[0,5)	0.501295060602838
+physical distancing	all	[10,20)	[5,10)	0.6226834338090839
+physical distancing	all	[10,20)	[10,20)	1.5595905217227157
+physical distancing	all	[10,20)	[20,30)	1.2872063035023524
+physical distancing	all	[10,20)	[30,40)	0.9698449248107837
+physical distancing	all	[10,20)	[40,50)	0.8127767120057791
+physical distancing	all	[10,20)	[50,60)	0.6069747296638984
+physical distancing	all	[10,20)	[60,70)	0.30669010029751687
+physical distancing	all	[10,20)	[70,80)	0.13422169554437927
+physical distancing	all	[10,20)	[80,Inf]	0.04326332863909895
+physical distancing	all	[20,30)	[0,5)	0.4088840147731715
+physical distancing	all	[20,30)	[5,10)	0.47561993949786835
+physical distancing	all	[20,30)	[10,20)	1.1741089308424857
+physical distancing	all	[20,30)	[20,30)	1.5064132227564098
+physical distancing	all	[20,30)	[30,40)	1.0951976476998915
+physical distancing	all	[20,30)	[40,50)	0.8861217501259476
+physical distancing	all	[20,30)	[50,60)	0.6997293403834037
+physical distancing	all	[20,30)	[60,70)	0.37827757419651237
+physical distancing	all	[20,30)	[70,80)	0.1843596146520484
+physical distancing	all	[20,30)	[80,Inf]	0.07061500703320961
+physical distancing	all	[30,40)	[0,5)	0.34983980743536147
+physical distancing	all	[30,40)	[5,10)	0.3946104845643955
+physical distancing	all	[30,40)	[10,20)	0.9239049446206583
+physical distancing	all	[30,40)	[20,30)	1.143812125298057
+physical distancing	all	[30,40)	[30,40)	1.2903381722902876
+physical distancing	all	[30,40)	[40,50)	0.9899881381446223
+physical distancing	all	[30,40)	[50,60)	0.7777507027981183
+physical distancing	all	[30,40)	[60,70)	0.455423791388852
+physical distancing	all	[30,40)	[70,80)	0.24749125414344142
+physical distancing	all	[30,40)	[80,Inf]	0.10676118286516274
+physical distancing	all	[40,50)	[0,5)	0.249555740458403
+physical distancing	all	[40,50)	[5,10)	0.2975820239950086
+physical distancing	all	[40,50)	[10,20)	0.7219196273298418
+physical distancing	all	[40,50)	[20,30)	0.8628753611254881
+physical distancing	all	[40,50)	[30,40)	0.9230387072281834
+physical distancing	all	[40,50)	[40,50)	1.1167366694306122
+physical distancing	all	[40,50)	[50,60)	0.8706658820041258
+physical distancing	all	[40,50)	[60,70)	0.5425494144145072
+physical distancing	all	[40,50)	[70,80)	0.3267068165391361
+physical distancing	all	[40,50)	[80,Inf]	0.1547537123102822
+physical distancing	all	[50,60)	[0,5)	0.15643091583828334
+physical distancing	all	[50,60)	[5,10)	0.1891564348052291
+physical distancing	all	[50,60)	[10,20)	0.4859710567774803
+physical distancing	all	[50,60)	[20,30)	0.6142020103123789
+physical distancing	all	[50,60)	[30,40)	0.6536706465108453
+physical distancing	all	[50,60)	[40,50)	0.7848352991702406
+physical distancing	all	[50,60)	[50,60)	0.9615457769346443
+physical distancing	all	[50,60)	[60,70)	0.6644863305750892
+physical distancing	all	[50,60)	[70,80)	0.43507419858846097
+physical distancing	all	[50,60)	[80,Inf]	0.22093201137797072
+physical distancing	all	[60,70)	[0,5)	0.09039225006660147
+physical distancing	all	[60,70)	[5,10)	0.11023875186126587
+physical distancing	all	[60,70)	[10,20)	0.29471517413823267
+physical distancing	all	[60,70)	[20,30)	0.3985252976235748
+physical distancing	all	[60,70)	[30,40)	0.45940765455584637
+physical distancing	all	[60,70)	[40,50)	0.5869922828117125
+physical distancing	all	[60,70)	[50,60)	0.7975387351041803
+physical distancing	all	[60,70)	[60,70)	0.8259397850774692
+physical distancing	all	[60,70)	[70,80)	0.5985735120114243
+physical distancing	all	[60,70)	[80,Inf]	0.31718801036352406
+physical distancing	all	[70,80)	[0,5)	0.04508030788921945
+physical distancing	all	[70,80)	[5,10)	0.06021671329031925
+physical distancing	all	[70,80)	[10,20)	0.1770968147684673
+physical distancing	all	[70,80)	[20,30)	0.2666806048266851
+physical distancing	all	[70,80)	[30,40)	0.34278598983318265
+physical distancing	all	[70,80)	[40,50)	0.4853238602707203
+physical distancing	all	[70,80)	[50,60)	0.7169807125860626
+physical distancing	all	[70,80)	[60,70)	0.8218633557699687
+physical distancing	all	[70,80)	[70,80)	0.8689451560665316
+physical distancing	all	[70,80)	[80,Inf]	0.47801139737080717
+physical distancing	all	[80,Inf]	[0,5)	0.021299962353065645
+physical distancing	all	[80,Inf]	[5,10)	0.03218332612882491
+physical distancing	all	[80,Inf]	[10,20)	0.10877034287749066
+physical distancing	all	[80,Inf]	[20,30)	0.19462792261296585
+physical distancing	all	[80,Inf]	[30,40)	0.2817514653181129
+physical distancing	all	[80,Inf]	[40,50)	0.4380319281915137
+physical distancing	all	[80,Inf]	[50,60)	0.6937349656138111
+physical distancing	all	[80,Inf]	[60,70)	0.8298408987640299
+physical distancing	all	[80,Inf]	[70,80)	0.9108563791113906
+physical distancing	all	[80,Inf]	[80,Inf]	0.6920047581457448
+physical distancing	community	[0,5)	[0,5)	0.46397479794008106
+physical distancing	community	[0,5)	[5,10)	0.2531898583570755
+physical distancing	community	[0,5)	[10,20)	0.27415075171469694
+physical distancing	community	[0,5)	[20,30)	0.2046592262461277
+physical distancing	community	[0,5)	[30,40)	0.2037894816143071
+physical distancing	community	[0,5)	[40,50)	0.2239239494474112
+physical distancing	community	[0,5)	[50,60)	0.25256480351147403
+physical distancing	community	[0,5)	[60,70)	0.17333956665392494
+physical distancing	community	[0,5)	[70,80)	0.05574984742824395
+physical distancing	community	[0,5)	[80,Inf]	0.010569467554954822
+physical distancing	community	[5,10)	[0,5)	0.2390078048389568
+physical distancing	community	[5,10)	[5,10)	0.5365627257869537
+physical distancing	community	[5,10)	[10,20)	0.4966961301766219
+physical distancing	community	[5,10)	[20,30)	0.31703548809045995
+physical distancing	community	[5,10)	[30,40)	0.2693832304236735
+physical distancing	community	[5,10)	[40,50)	0.27942240936578505
+physical distancing	community	[5,10)	[50,60)	0.2591577595205621
+physical distancing	community	[5,10)	[60,70)	0.16308700098467196
+physical distancing	community	[5,10)	[70,80)	0.06943544399133322
+physical distancing	community	[5,10)	[80,Inf]	0.018663849089871197
+physical distancing	community	[10,20)	[0,5)	0.11822311854765508
+physical distancing	community	[10,20)	[5,10)	0.22690198511846704
+physical distancing	community	[10,20)	[10,20)	0.8041315769878697
+physical distancing	community	[10,20)	[20,30)	0.5368423002956927
+physical distancing	community	[10,20)	[30,40)	0.38806796666691673
+physical distancing	community	[10,20)	[40,50)	0.36478361741307463
+physical distancing	community	[10,20)	[50,60)	0.3181352603232029
+physical distancing	community	[10,20)	[60,70)	0.19864253921220704
+physical distancing	community	[10,20)	[70,80)	0.10142955049847371
+physical distancing	community	[10,20)	[80,Inf]	0.03758377542867813
+physical distancing	community	[20,30)	[0,5)	0.08050190568824
+physical distancing	community	[20,30)	[5,10)	0.1321029004344776
+physical distancing	community	[20,30)	[10,20)	0.4896743984936501
+physical distancing	community	[20,30)	[20,30)	0.9548857758786938
+physical distancing	community	[20,30)	[30,40)	0.6564300122133326
+physical distancing	community	[20,30)	[40,50)	0.5508347491806564
+physical distancing	community	[20,30)	[50,60)	0.4681039755041214
+physical distancing	community	[20,30)	[60,70)	0.26781464234721586
+physical distancing	community	[20,30)	[70,80)	0.1524501541210703
+physical distancing	community	[20,30)	[80,Inf]	0.07940810717391376
+physical distancing	community	[30,40)	[0,5)	0.08371863751739277
+physical distancing	community	[30,40)	[5,10)	0.11723107123391081
+physical distancing	community	[30,40)	[10,20)	0.36968479940651344
+physical distancing	community	[30,40)	[20,30)	0.6855668778781955
+physical distancing	community	[30,40)	[30,40)	1.0658929626610254
+physical distancing	community	[30,40)	[40,50)	0.7988748000059855
+physical distancing	community	[30,40)	[50,60)	0.6157038135926952
+physical distancing	community	[30,40)	[60,70)	0.3547817259045626
+physical distancing	community	[30,40)	[70,80)	0.2125001938445617
+physical distancing	community	[30,40)	[80,Inf]	0.12337464081392634
+physical distancing	community	[40,50)	[0,5)	0.0857687129170004
+physical distancing	community	[40,50)	[5,10)	0.11337820868725539
+physical distancing	community	[40,50)	[10,20)	0.3240062419529202
+physical distancing	community	[40,50)	[20,30)	0.536384184618211
+physical distancing	community	[40,50)	[30,40)	0.7448498749772352
+physical distancing	community	[40,50)	[40,50)	1.0442425537412272
+physical distancing	community	[40,50)	[50,60)	0.6940396141045923
+physical distancing	community	[40,50)	[60,70)	0.4036903150105125
+physical distancing	community	[40,50)	[70,80)	0.27083647502659847
+physical distancing	community	[40,50)	[80,Inf]	0.16919969060138193
+physical distancing	community	[50,60)	[0,5)	0.08720337831073202
+physical distancing	community	[50,60)	[5,10)	0.09478706257465551
+physical distancing	community	[50,60)	[10,20)	0.25471292331028433
+physical distancing	community	[50,60)	[20,30)	0.41088729364326865
+physical distancing	community	[50,60)	[30,40)	0.5174773545958518
+physical distancing	community	[50,60)	[40,50)	0.6256221897061947
+physical distancing	community	[50,60)	[50,60)	0.6694092140154853
+physical distancing	community	[50,60)	[60,70)	0.42919959907167754
+physical distancing	community	[50,60)	[70,80)	0.3197399101617336
+physical distancing	community	[50,60)	[80,Inf]	0.2193676283967773
+physical distancing	community	[60,70)	[0,5)	0.07182994548165025
+physical distancing	community	[60,70)	[5,10)	0.07159310171450076
+physical distancing	community	[60,70)	[10,20)	0.19088476014045044
+physical distancing	community	[60,70)	[20,30)	0.28215000998454765
+physical distancing	community	[60,70)	[30,40)	0.3578846404975169
+physical distancing	community	[60,70)	[40,50)	0.4367587696173788
+physical distancing	community	[60,70)	[50,60)	0.5151393245750184
+physical distancing	community	[60,70)	[60,70)	0.422182363470841
+physical distancing	community	[60,70)	[70,80)	0.3719847879323909
+physical distancing	community	[60,70)	[80,Inf]	0.2703477618642726
+physical distancing	community	[70,80)	[0,5)	0.031721029861630945
+physical distancing	community	[70,80)	[5,10)	0.041851891903346344
+physical distancing	community	[70,80)	[10,20)	0.13382925360676734
+physical distancing	community	[70,80)	[20,30)	0.2205221165764644
+physical distancing	community	[70,80)	[30,40)	0.2943213841863128
+physical distancing	community	[70,80)	[40,50)	0.40232770522430644
+physical distancing	community	[70,80)	[50,60)	0.5269121282656942
+physical distancing	community	[70,80)	[60,70)	0.5107487682271478
+physical distancing	community	[70,80)	[70,80)	0.4845956581735176
+physical distancing	community	[70,80)	[80,Inf]	0.37457539363907477
+physical distancing	community	[80,Inf]	[0,5)	0.01145915663139349
+physical distancing	community	[80,Inf]	[5,10)	0.02143547497498112
+physical distancing	community	[80,Inf]	[10,20)	0.09449131958474451
+physical distancing	community	[80,Inf]	[20,30)	0.2188627724305862
+physical distancing	community	[80,Inf]	[30,40)	0.325595559714681
+physical distancing	community	[80,Inf]	[40,50)	0.4789203594825255
+physical distancing	community	[80,Inf]	[50,60)	0.6888193886992127
+physical distancing	community	[80,Inf]	[60,70)	0.7072950664741648
+physical distancing	community	[80,Inf]	[70,80)	0.7137662339831129
+physical distancing	community	[80,Inf]	[80,Inf]	0.3890244118383488
+physical distancing	household	[0,5)	[0,5)	0.5847850605858722
+physical distancing	household	[0,5)	[5,10)	0.5081615773090503
+physical distancing	household	[0,5)	[10,20)	0.3057551673560438
+physical distancing	household	[0,5)	[20,30)	0.3782063745913421
+physical distancing	household	[0,5)	[30,40)	1.257551465251735
+physical distancing	household	[0,5)	[40,50)	0.4090019196920812
+physical distancing	household	[0,5)	[50,60)	0.05885121648164422
+physical distancing	household	[0,5)	[60,70)	0.03032625782754404
+physical distancing	household	[0,5)	[70,80)	0.025861095777728643
+physical distancing	household	[0,5)	[80,Inf]	0.010482076313423188
+physical distancing	household	[5,10)	[0,5)	0.47969873192218454
+physical distancing	household	[5,10)	[5,10)	0.5734776259450787
+physical distancing	household	[5,10)	[10,20)	0.48602926175549327
+physical distancing	household	[5,10)	[20,30)	0.16867769374026664
+physical distancing	household	[5,10)	[30,40)	0.8243823452444665
+physical distancing	household	[5,10)	[40,50)	0.7763509867962339
+physical distancing	household	[5,10)	[50,60)	0.1197610600529684
+physical distancing	household	[5,10)	[60,70)	0.022988996924339773
+physical distancing	household	[5,10)	[70,80)	0.0051847341004705215
+physical distancing	household	[5,10)	[80,Inf]	0.0012231332173443731
+physical distancing	household	[10,20)	[0,5)	0.13185206331613397
+physical distancing	household	[10,20)	[5,10)	0.2220260396710815
+physical distancing	household	[10,20)	[10,20)	0.8218875622522074
+physical distancing	household	[10,20)	[20,30)	0.2531673081344074
+physical distancing	household	[10,20)	[30,40)	0.2312996225016331
+physical distancing	household	[10,20)	[40,50)	0.8372317549710562
+physical distancing	household	[10,20)	[50,60)	0.4845492364464717
+physical distancing	household	[10,20)	[60,70)	0.035348227518429816
+physical distancing	household	[10,20)	[70,80)	0.0055133964257915325
+physical distancing	household	[10,20)	[80,Inf]	4.2119896632397035e-4
+physical distancing	household	[20,30)	[0,5)	0.14876870188585176
+physical distancing	household	[20,30)	[5,10)	0.07028521189778059
+physical distancing	household	[20,30)	[10,20)	0.2309223217165772
+physical distancing	household	[20,30)	[20,30)	0.5476413250377549
+physical distancing	household	[20,30)	[30,40)	0.1533291714455354
+physical distancing	household	[20,30)	[40,50)	0.16118593376553153
+physical distancing	household	[20,30)	[50,60)	0.38653807098855614
+physical distancing	household	[20,30)	[60,70)	0.09778133592097456
+physical distancing	household	[20,30)	[70,80)	0.007908607025580317
+physical distancing	household	[20,30)	[80,Inf]	3.8538423833304043e-4
+physical distancing	household	[30,40)	[0,5)	0.5166128709639659
+physical distancing	household	[30,40)	[5,10)	0.35875648637947954
+physical distancing	household	[30,40)	[10,20)	0.22034548356797395
+physical distancing	household	[30,40)	[20,30)	0.16013415097572775
+physical distancing	household	[30,40)	[30,40)	0.5200405602940131
+physical distancing	household	[30,40)	[40,50)	0.14400303246953414
+physical distancing	household	[30,40)	[50,60)	0.04815110397804967
+physical distancing	household	[30,40)	[60,70)	0.032004626322091265
+physical distancing	household	[30,40)	[70,80)	0.009174399073058462
+physical distancing	household	[30,40)	[80,Inf]	8.301201538897351e-4
+physical distancing	household	[40,50)	[0,5)	0.1566580650986179
+physical distancing	household	[40,50)	[5,10)	0.3150047211261107
+physical distancing	household	[40,50)	[10,20)	0.7436400403436899
+physical distancing	household	[40,50)	[20,30)	0.15695773084499914
+physical distancing	household	[40,50)	[30,40)	0.13426400981665657
+physical distancing	household	[40,50)	[40,50)	0.4937737783579844
+physical distancing	household	[40,50)	[50,60)	0.1270040188193125
+physical distancing	household	[40,50)	[60,70)	0.020973964859754776
+physical distancing	household	[40,50)	[70,80)	0.008418717520413298
+physical distancing	household	[40,50)	[80,Inf]	0.0024379098687856956
+physical distancing	household	[50,60)	[0,5)	0.02031975180038443
+physical distancing	household	[50,60)	[5,10)	0.04380239800946031
+physical distancing	household	[50,60)	[10,20)	0.387952109823399
+physical distancing	household	[50,60)	[20,30)	0.3392928045179153
+physical distancing	household	[50,60)	[30,40)	0.04046901315519798
+physical distancing	household	[50,60)	[40,50)	0.11448277646849804
+physical distancing	household	[50,60)	[50,60)	0.5782742331355659
+physical distancing	household	[50,60)	[60,70)	0.1173330800269849
+physical distancing	household	[50,60)	[70,80)	0.018573385528144255
+physical distancing	household	[50,60)	[80,Inf]	0.003776364163977576
+physical distancing	household	[60,70)	[0,5)	0.012567576743709431
+physical distancing	household	[60,70)	[5,10)	0.010091653965645417
+physical distancing	household	[60,70)	[10,20)	0.03396823221965061
+physical distancing	household	[60,70)	[20,30)	0.10301426300099924
+physical distancing	household	[60,70)	[30,40)	0.0322848398224325
+physical distancing	household	[60,70)	[40,50)	0.02269195351207678
+physical distancing	household	[60,70)	[50,60)	0.14082687827006943
+physical distancing	household	[60,70)	[60,70)	0.6388170096438199
+physical distancing	household	[60,70)	[70,80)	0.12555567816952218
+physical distancing	household	[60,70)	[80,Inf]	0.010289351342292613
+physical distancing	household	[70,80)	[0,5)	0.014715068449810399
+physical distancing	household	[70,80)	[5,10)	0.0031250667195853584
+physical distancing	household	[70,80)	[10,20)	0.007274661266560199
+physical distancing	household	[70,80)	[20,30)	0.011439989030967504
+physical distancing	household	[70,80)	[30,40)	0.012706911044016085
+physical distancing	household	[70,80)	[40,50)	0.012506035020190466
+physical distancing	household	[70,80)	[50,60)	0.030608267177398812
+physical distancing	household	[70,80)	[60,70)	0.1723924853139277
+physical distancing	household	[70,80)	[70,80)	0.6471698374983086
+physical distancing	household	[70,80)	[80,Inf]	0.07295717009235915
+physical distancing	household	[80,Inf]	[0,5)	0.01136462790132512
+physical distancing	household	[80,Inf]	[5,10)	0.0014047644682758187
+physical distancing	household	[80,Inf]	[10,20)	0.001058947171049777
+physical distancing	household	[80,Inf]	[20,30)	0.0010622348387275952
+physical distancing	household	[80,Inf]	[30,40)	0.002190806199743961
+physical distancing	household	[80,Inf]	[40,50)	0.006900674682004119
+physical distancing	household	[80,Inf]	[50,60)	0.011858177297794146
+physical distancing	household	[80,Inf]	[60,70)	0.0269194452453034
+physical distancing	household	[80,Inf]	[70,80)	0.1390202651379514
+physical distancing	household	[80,Inf]	[80,Inf]	0.33145053836251537
