@@ -70,13 +70,13 @@ demography <- pull(read_excel("data/DEMOGRAPHY NL NEW.xlsx", skip = 0, sheet = "
 sum(demography)
 
 # Contact matrices
-ContactData <- read_tsv("data/Jantien_matrices.tsv")
+ContactData <- read_tsv("data/contact_matrices.tsv")
 ContactDataBaselineAll <- ContactData %>% filter(survey == "baseline", contact_type == "all")
 ContactDataPhysicalDistancingAll <- ContactData %>% filter(survey == "physical distancing", contact_type == "all")
 ContactMatrixBaselineAll <- matrix(ContactDataBaselineAll$m_est, nrow = 10, ncol = 10)
 ContactMatrixPhysicalDistancingAll <- matrix(ContactDataPhysicalDistancingAll$m_est, nrow = 10, ncol = 10)
-contactmatrix_unperturbed <- ContactMatrixBaselineAll # rename - CHECK sender and receiver are in right order
-contactmatrix_distancing <- ContactMatrixPhysicalDistancingAll # rename - CHECK sender and receiver are in right order
+contactmatrix_unperturbed <- ContactMatrixBaselineAll
+contactmatrix_distancing <- ContactMatrixPhysicalDistancingAll
 
 ## split distancing matrix into household and community contacts
 
@@ -91,7 +91,7 @@ contactmatrix_distancing_comty <- matrix(ContactDataPhysicalDistancingComty$m_es
 ## dS_p / dt = -epsilon * S_p * \sum_c C_pc I_c
 ##
 ## R default matrix method uses column-major order and so does Stan.
-## Jantiens file is in row-major-order (contact age groups, then participant age groups)
+## The contact matrix file is in row-major-order (contact age groups, then participant age groups)
 ## Hence, the raw contact matrix has to be transposed
 
 contactmatrix_unperturbed <- t(contactmatrix_unperturbed)
@@ -113,8 +113,6 @@ SeroData <- read_tsv("data/digitized_sero_data.tsv")
 #20-59 : OR=0.64 (0.43,0.97)
 #60+ : OR=1 (reference class)
 
-## based on the CIs: take log_beta_sd = 0.5 (FIXME: better method)
-
 beta_short_hyp <- c(0.23, 0.64, 1.0) # 3 classes
 #beta_short_hyp <- c(0.23, 0.23, 0.64, 1.0) # 4 classes (with identical prior for [0,10) and [10,20))
 
@@ -125,7 +123,7 @@ hosp_classes <- c(1, 1, 1, 2, 3, 4, 5, 6, 7, 8)
 
 ## hyper parameters for gamma and alpha
 
-## 95% T_I between 4.4 and 15 days (FIXME: check these bounds)
+## 99% T_I between 5 and 15 days
 a_gamma <- 22.6; b_gamma <- 2.44
 
 ## 95% T_I between 5.3 and 8.2 days
@@ -138,7 +136,7 @@ a_gamma <- 22.6; b_gamma <- 2.44
 ## 95% T_E between 2.0 and 4.2 days
 #a_alpha <- 30; b_alpha <- 10
 
-## 95% T_E between 2.2 and 4.4 days (FIXME: check these bounds)
+## 99% T_E between 2 and 5 days
 a_alpha <- 32.25; b_alpha <- 9.75
 
 
@@ -163,13 +161,13 @@ datalist <- list(
   sero_num_sampled = matrix(SeroData$SampleSize, nrow=1),
   sero_num_pos = matrix(SeroData$Positive, nrow=1),
   beta_short_hyp = beta_short_hyp,
-  log_beta_sd = 0.1, ## TODO: make larger (especially in case of 4 classes)
+  log_beta_sd = 0.1,
   a_gamma = a_gamma,
   b_gamma = b_gamma,
   a_alpha = a_alpha,
   b_alpha = b_alpha,
   m_zeta = 1.0, ## we think zeta should be around 1
-  s_zeta = 0.1, ## NB: zeta "wants" to be much smaller.
+  s_zeta = 0.1,
   rel_tol = 1e-5,
   abs_tol = 1e-7, 
   max_num_steps = 1e5,
@@ -179,13 +177,11 @@ datalist <- list(
 
 nu_short_scale_guess <- 0.08
 nu_short_simplex_guess <- c(0.001, 0.001, 0.002, 0.005, 0.01, 0.02, 0.03, 0.04) ## 8 classes
-#nu_short_simplex_guess <- c(0.001, 0.001, 0.001, 0.002, 0.005, 0.01, 0.02, 0.03, 0.04) ## 9 classes
 
 ## make sure that sum(nu_short_simplex_guess) = 1
 nu_short_simplex_guess <- nu_short_simplex_guess / sum(nu_short_simplex_guess)
 
 beta_short_raw_guess <- c(0.23, 0.64) ## 3 age classes (one reference class)
-#beta_short_raw_guess <- c(0.23, 0.23, 0.64) ## 4 age classes (one reference class)
 
 
 ## check if the initial parameter guess leads to an R0 that is reasonable
@@ -275,12 +271,11 @@ fit$cmdstan_diagnose()
 fit.rstan <- rstan::read_stan_csv(fit$output_files())
 
 # print fit
-#print(fit, pars=c("epsilon", "gamma", "zeta", "x0", "k", "youngimmune", "nu_short", "inoculum", "p_short"), digits = 4)
 print(fit.rstan, pars=c("epsilon", "gamma", "zeta", "x0", "k", "nu_short", "inoculum", "p_short", "beta_short"), digits = 4)
 
 # traces
-#rstan::traceplot(fit.rstan, pars=c("epsilon", "gamma", "zeta", "nu_scale", "inoculum", "x0", "k", "beta_short", "r"))
-rstan::traceplot(fit.rstan, pars=c("epsilon", "gamma", "zeta", "nu_scale", "inoculum", "x0", "k", "beta_short"))
+rstan::traceplot(fit.rstan, pars=c("epsilon", "gamma", "zeta", "nu_scale", "inoculum", "x0", "k", "beta_short", "r"))
+#rstan::traceplot(fit.rstan, pars=c("epsilon", "gamma", "zeta", "nu_scale", "inoculum", "x0", "k", "beta_short"))
 
 # pair plots
 pairs(fit.rstan, pars=c("inoculum", "nu_scale", "beta_short_raw", "epsilon", "gamma", "alpha"))
@@ -330,7 +325,6 @@ filter.chains <- function(traces, exclude, iter, warmup, thin) {
 #params <- filter.chains(params, c(1,3), iter, warmup, thin) ## exclude chains 1 and 3
 
 # write selected output
-#output = as.data.frame(fit, pars=c("epsilon", "gamma", "nu_short" , "inoculum", "p_short"))
 output = as.data.frame(fit.rstan, pars=c("epsilon", "zeta", "gamma", "nu_short" , "inoculum", "p_short", "x0", "k", "alpha", "beta_short", "r")) 
 write.csv(output, file = "output/ganna_J3_wide-prior-alpha-gamma_DSD.csv", row.names = FALSE)
 

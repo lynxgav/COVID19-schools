@@ -43,7 +43,7 @@ functions {
 
 data {
   /* preliminaries  */ 
-  real t0;                       // start integration at t0=0 (now 2020-02-21)
+  real t0; // start integration at t0=0 (now 2020-02-21)
   int <lower = 1> A;                       
   int <lower = 1> numdayshosp;              
   
@@ -57,11 +57,11 @@ data {
   int <lower = 1, upper = Asusc> ref_class; // has OR of 1
 
   /* contact matrices in the pre-lockdown and lockdown */
-  matrix[A, A] Cunp; // unperturbed contact matrix, CHECK at some point with Jantien 
-  matrix[A, A] Cdis; // distancing contact matrix, CHECK at some point with Jantien
+  matrix[A, A] Cunp; // unperturbed contact matrix
+  matrix[A, A] Cdis; // distancing contact matrix
   
   /* demography */
-  real demography[A];                                // demographic composition of the Netherlands (June 2020, CHECK)
+  real demography[A]; // demographic composition of the Netherlands
   
   /* observation times */
   real ts_hosp[numdayshosp];                                      
@@ -72,7 +72,7 @@ data {
   //real <lower = 0> alpha;                                    
   
   /* sampling temperature */
-  int <lower = 0, upper = 1> mode;                                    // 0 = estimation, 1 = WBIC calculation
+  int <lower = 0, upper = 1> mode; // 0 = estimation, 1 = WBIC calculation
   
   /* hospitalisation data of RIVM by admission date */
   int<lower=0> hospitalisations[numdayshosp, A];    
@@ -104,7 +104,7 @@ data {
 
 transformed data {
   /* sampling temperature */  
-  real<lower = 0, upper = 1> watanabe_beta;                     // 0 = normal; 1 = WBIC
+  real<lower = 0, upper = 1> watanabe_beta; // 0 = normal; 1 = WBIC
 
   int numdays_all = numdayshosp + numdayssero;
   
@@ -153,7 +153,7 @@ parameters {
 }
 
 transformed parameters {
-  vector<lower=0, upper=1>[(2+J)*A] y0;                            // initial conditions 
+  vector<lower=0, upper=1>[(2+J)*A] y0;                        // initial conditions 
   vector[(2+J)*A] y_hat[numdays_all];                          // prevalences at time t of age a (3 classes)
   vector<lower=0>[Ahosp] p_short;                              // prob of hospitalisation
   vector<lower=0>[A] nu;                                       // hospitalisation rates              
@@ -169,13 +169,13 @@ transformed parameters {
 
   vector[Ahosp] nu_short = nu_scale * nu_simplex;
   /* reduced number age-specific parameters for severe disease */
-  nu = nu_short[hosp_classes];                                      // elongate nu_short
+  nu = nu_short[hosp_classes]; // elongate nu_short
   
   // add a OR of 1 to the beta_short_raw vector at the reference class
   beta_short = append_row(beta_short_raw[1:ref_class-1], 
     append_row(rep_vector(1.0, 1),beta_short_raw[ref_class:]));
   
-  beta = beta_short[susc_classes];                                  // full vector of age-dependent susc
+  beta = beta_short[susc_classes]; // full vector of age-dependent susc
 
   /* initial conditions */
   for (a in 1:A) { // TODO: extend/include long run-up period to approach stable class distribution
@@ -214,15 +214,7 @@ transformed parameters {
     }
   }
    
-  /* serological data as reported in Eric's manuscript */
-  /* notice that due to retesting and discarding of false positives Sp=1 */
-  /* while Se=0.85. imperfect Se is not included below */
-  /* may still change after retesting with improved test */
-  
-  /* Used data:
-   * day40 (April 1 median of sampling; range 30/3-3/4)
-   * minus 10 days for Ab development, so day 30
-   */
+  /* likelihood of sero data */
   for ( i in 1:numdayssero ) {
     int idx = time_indices_sero[i];
     for ( a in 1:A ) {
