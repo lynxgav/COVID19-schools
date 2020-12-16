@@ -17,9 +17,6 @@ We digitized data from the publication
 > Vos ERA, den Hartog G, Schepp RM, *et al*
   Nationwide seroprevalence of SARS-CoV-2 and identification of risk factors in the general population of the Netherlands during the first epidemic wave
   *J Epidemiol Community Health* Published Online First: 28 November 2020. doi: [10.1136/jech-2020-215678](10.1136/jech-2020-215678)
-  
-### Hospitalization data
-
 
 ### Contact matrices
 
@@ -29,6 +26,10 @@ We used contact patterns from the preprint:
   The impact of physical distancing measures against COVID-19 transmission on contacts and mixing patterns in the Netherlands: 
   repeated cross-sectional surveys in 2016/2017, April 2020 and June 2020
   *medRxiv* 2020.05.18.20101501; doi: [https://doi.org/10.1101/2020.05.18.20101501](https://doi.org/10.1101/2020.05.18.20101501)
+  
+### Hospitalization data
+
+The hospital data included COVID-19 hospitalizations by date of admission and stratified by age during the period of 69 days following the first official case in the Netherlands (OSIRIS database). The applications for this dataset should be forwarded to the National Institute for Public Health and the Environment (COVID-19EPI@rivm.nl).
   
 These are added to the `data` folder for convenience.
 
