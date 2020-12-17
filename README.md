@@ -33,6 +33,10 @@ We used contact patterns from the preprint:
 
 The hospital data included COVID-19 hospitalizations by date of admission and stratified by age during the period of 69 days following the first official case in the Netherlands (OSIRIS database). The applications for this dataset should be forwarded to the National Institute for Public Health and the Environment (COVID-19EPI@rivm.nl).
 
+### Demographic data
+
+We used the data from the Statistics Netherlands (CBS): https://www.cbs.nl.
+
 ## Model 
 
 ### Inference
