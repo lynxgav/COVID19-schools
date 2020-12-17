@@ -46,5 +46,5 @@ The R and Stan scripts are based on scripts used for the publication
 
 ### Analysis
 
-Analysis of the model is performed using Mathematica. The notebooks can be found in the `notebooks` directory.
+Analysis of the model is performed using Mathematica Version Number 10.0.2.0 on Platform Mac OS X El Capitan Version 10.11.5. The notebook SchoolAnalyses.nb can be found in the `notebooks` directory.
 
