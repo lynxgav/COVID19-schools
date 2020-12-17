@@ -66,8 +66,12 @@ Output files produced in R or Mathematica are saved in the `output` directory.
 
 ## Other
 
+### OS requirements
+Mac OS X El Capitan Version 10.11.5 for Mathematica notebook
+Windows 10 Home Version 1903 for R and Stant scripts
+
 ### Hardware requirements
-Our study requires only a standard computer with enough RAM to support the in-memory operations
+Our study requires only a standard computer with enough RAM to support the in-memory operations.
 
 ### Installation guide
 R Version 3.6.0 https://www.r-project.org/<br />
