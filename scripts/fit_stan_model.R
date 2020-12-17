@@ -65,7 +65,7 @@ numberofdays <- dim(hospitalisations_selected)[1]
 write.csv(hospitalisations_selected, file = "output/hospitalisations_selected.csv", row.names = FALSE)
 
 # Demographic data from the Netherlands
-demography <- pull(read_excel("data/DEMOGRAPHY NL NEW.xlsx", skip = 0, sheet = "Population", 
+demography <- pull(read_excel("data/DEMOGRAPHY NL 10.xlsx", skip = 0, sheet = "Population", 
                               col_names = FALSE, col_types = "numeric"), var = 1) # June 2020
 sum(demography)
 
