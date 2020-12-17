@@ -41,8 +41,7 @@ The hospital data included COVID-19 hospitalizations by date of admission and st
 
 ### Inference
 
-Model inference is done with R and Stan. The scripts can be found in the `scripts` directory.
-The R and Stan scripts are based on scripts used for the publication
+Model inference was done with R Version 3.6.0 using R Studio Version 1.3.959 (Interface to R) and Stan using rstan R package Version 2.19.3 (R interface to Stan). The scripts can be found in the `scripts` directory. The R and Stan scripts are based on scripts used for the publication
 
 > van Boven M, Teirlinck AC, Meijer A, Hooiveld M, van Dorp CH, Reeves RM, Campbell H, van der Hoek W; RESCEU Investigators. 
   Estimating Transmission Parameters for Respiratory Syncytial Virus and Predicting the Impact of Maternal and Pediatric Vaccination. 
