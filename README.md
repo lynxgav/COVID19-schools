@@ -24,7 +24,7 @@ We digitized data from the publication
 
 ### Contact matrices
 
-We used contact patterns from the preprint:
+We used contact patterns from the preprint
 
 > Jantien A. Backer, Liesbeth Mollema, R.A. Eric Vos, Don Klinkenberg, Fiona R.M. van der Klis, Hester E. de Melker, Susan van den Hof, Jacco Wallinga
   The impact of physical distancing measures against COVID-19 transmission on contacts and mixing patterns in the Netherlands: 
@@ -32,6 +32,7 @@ We used contact patterns from the preprint:
   *medRxiv* 2020.05.18.20101501; doi: [https://doi.org/10.1101/2020.05.18.20101501](https://doi.org/10.1101/2020.05.18.20101501)
   
 The school-specific contact matrix was taken from the publication 
+
 > Prem K, Cook AR, Jit M. Projecting social contact matrices in 152 countries using contact surveys and demographic data. *PLOS Computational Biology* 2017;13(9):1-21. doi: [10.1371/journal.pcbi.1005697](10.1371/journal.pcbi.1005697).
 
 ### Demographic data
@@ -40,7 +41,7 @@ We used publicly available data from the Statistics Netherlands (CBS): https://w
 
 ### Hospitalization data
 
-The hospital data included COVID-19 hospitalizations by date of admission and stratified by age during the period of 69 days following the first official case in the Netherlands (OSIRIS database). The applications for this dataset should be forwarded to the National Institute for Public Health and the Environment (COVID-19EPI@rivm.nl).
+The hospital data included COVID-19 hospitalizations by date of admission and stratified by age in the Netherlands (OSIRIS database). The applications for this dataset should be forwarded to the National Institute for Public Health and the Environment (COVID-19EPI@rivm.nl).
 
 ## Model 
 
@@ -54,20 +55,20 @@ Model inference was done with R Version 3.6.0 using R Studio Version 1.3.959 (In
 
 ### Analysis
 
-Analysis of the model is performed using Mathematica Version Number 10.0.2.0 on Platform Mac OS X El Capitan Version 10.11.5. The notebook SchoolAnalyses.nb can be found in the `notebooks` directory.
+Analysis of the model was performed using Mathematica Version Number 10.0.2.0 on Platform Mac OS X El Capitan Version 10.11.5. The notebook SchoolAnalyses.nb can be found in the `notebooks` directory.
 
 ### Figures
 
-Figures for the manuscript are produced in the notebook SchoolAnalyses.nb and saved in the `figures` directory.
+Figures for the manuscript were produced in the notebook SchoolAnalyses.nb. Figures can be found in the `figures` directory.
 
 ### Output
 
-Output files produced in R or Mathematica are saved in the `output` directory.
+Output files produced in R or Mathematica can be found in the `output` directory.
 
 ## Other
 
 ### OS requirements
-Mac OS X El Capitan Version 10.11.5 for Mathematica notebook
+Mac OS X El Capitan Version 10.11.5 for Mathematica notebook<br />
 Windows 10 Home Version 1903 for R and Stant scripts
 
 ### Hardware requirements
