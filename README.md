@@ -1,5 +1,7 @@
 # COVID19-schools
 
+## Overview
+
 We used an age-structured model fitted to age-specific seroprevalence and hospital admission data from the Netherlands to investigate the impact of reducing school and other (non-school-related) contacts on controlling the COVID-19 pandemic.
 
 All details are described in the preprint
@@ -61,3 +63,14 @@ Figures for the manuscript are produced in the notebook SchoolAnalyses.nb and sa
 ### Output
 
 Output files produced in R or Mathematica are saved in the `output` directory.
+
+## Other
+
+### Hardware requirements
+Our study requires only a standard computer with enough RAM to support the in-memory operations
+
+### Installation guide
+R Version 3.6.0 https://www.r-project.org/
+R Studio Version 1.3.959 (Interface to R) https://rstudio.com/
+rstan R package Version 2.19.3 (R interface to Stan) https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html
+cmdstanr R package Version 0.1.3 on Windows 10 Home Version 1903 https://mc-stan.org/cmdstanr/
