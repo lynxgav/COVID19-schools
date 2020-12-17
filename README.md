@@ -54,6 +54,10 @@ Model inference was done with R Version 3.6.0 using R Studio Version 1.3.959 (In
 
 Analysis of the model is performed using Mathematica Version Number 10.0.2.0 on Platform Mac OS X El Capitan Version 10.11.5. The notebook SchoolAnalyses.nb can be found in the `notebooks` directory.
 
-## Figures
+### Figures
 
 Figures for the manuscript are produced in the notebook SchoolAnalyses.nb and saved in the `figures` directory.
+
+### Output
+
+Output files produced in R or Mathematica are saved in the `output` directory.
