@@ -70,7 +70,7 @@ Output files produced in R or Mathematica are saved in the `output` directory.
 Our study requires only a standard computer with enough RAM to support the in-memory operations
 
 ### Installation guide
-R Version 3.6.0 https://www.r-project.org/
-R Studio Version 1.3.959 (Interface to R) https://rstudio.com/
-rstan R package Version 2.19.3 (R interface to Stan) https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html
-cmdstanr R package Version 0.1.3 on Windows 10 Home Version 1903 https://mc-stan.org/cmdstanr/
+R Version 3.6.0 https://www.r-project.org/<br />
+R Studio Version 1.3.959 (Interface to R) https://rstudio.com/<br />
+rstan R package Version 2.19.3 (R interface to Stan) https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html<br />
+cmdstanr R package Version 0.1.3 on Windows 10 Home Version 1903 https://mc-stan.org/cmdstanr/<br />
