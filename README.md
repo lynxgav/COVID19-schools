@@ -78,3 +78,4 @@ R Version 3.6.0 https://www.r-project.org/<br />
 R Studio Version 1.3.959 (Interface to R) https://rstudio.com/<br />
 rstan R package Version 2.19.3 (R interface to Stan) https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html<br />
 cmdstanr R package Version 0.1.3 on Windows 10 Home Version 1903 https://mc-stan.org/cmdstanr/<br />
+Mathematica 10.0.2.0 https://www.wolfram.com/mathematica/<br />
