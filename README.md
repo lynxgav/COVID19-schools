@@ -4,9 +4,9 @@ We used an age-structured model fitted to age-specific seroprevalence and hospit
 
 All details are described in the preprint
 
-> Rozhnova G, van Dorp CH, Bruijning-Verhagen, P, Bootsma MCJ, van de Wijgert JHHM, Bonten MJM, Kretzschmar ME,
-  Model-based evaluation of school- and non-school-related measures to control the COVID-19 pandemic
-
+> Model-based evaluation of school- and non-school-related measures to control the COVID-19 pandemic
+Ganna Rozhnova, Christiaan H. van Dorp, Patricia Bruijning-Verhagen, Martin C.J. Bootsma, Janneke H.H.M. van de Wijgert, Marc J.M. Bonten, Mirjam E. Kretzschmar
+medRxiv 2020.12.07.20245506; doi: https://doi.org/10.1101/2020.12.07.20245506
 
 ## Data
 
@@ -48,3 +48,6 @@ The R and Stan scripts are based on scripts used for the publication
 
 Analysis of the model is performed using Mathematica Version Number 10.0.2.0 on Platform Mac OS X El Capitan Version 10.11.5. The notebook SchoolAnalyses.nb can be found in the `notebooks` directory.
 
+## Figures
+
+Figures for the manuscript are produced in the notebook SchoolAnalyses.nb and saved in the `figures` directory.
