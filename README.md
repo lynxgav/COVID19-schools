@@ -30,7 +30,7 @@ We used contact patterns from the preprint:
   *medRxiv* 2020.05.18.20101501; doi: [https://doi.org/10.1101/2020.05.18.20101501](https://doi.org/10.1101/2020.05.18.20101501)
   
 The school-specific contact matrix was taken from the publication 
-> Prem K, Cook AR, Jit M. Projecting social contact matrices in 152 countries using contact surveys and demographic data. *PLOS Computational Biology* 2017;13(9):1-21. doi:10.1371/journal.pcbi.1005697.
+> Prem K, Cook AR, Jit M. Projecting social contact matrices in 152 countries using contact surveys and demographic data. *PLOS Computational Biology* 2017;13(9):1-21. doi: [10.1371/journal.pcbi.1005697](10.1371/journal.pcbi.1005697).
 
 ### Demographic data
 
