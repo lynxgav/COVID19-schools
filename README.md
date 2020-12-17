@@ -10,6 +10,8 @@ All details are described in the preprint
 
 ## Data
 
+The data are added to the `data` folder for convenience.
+
 ### Seroprevalence data
 
 We digitized data from the publication
@@ -30,8 +32,6 @@ We used contact patterns from the preprint:
 ### Hospitalization data
 
 The hospital data included COVID-19 hospitalizations by date of admission and stratified by age during the period of 69 days following the first official case in the Netherlands (OSIRIS database). The applications for this dataset should be forwarded to the National Institute for Public Health and the Environment (COVID-19EPI@rivm.nl).
-  
-These are added to the `data` folder for convenience.
 
 ## Model 
 
