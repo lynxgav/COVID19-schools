@@ -68,13 +68,16 @@ Output files produced in R or Mathematica can be found in the `output` directory
 ## Other
 
 ### OS requirements
+
 Mac OS X El Capitan Version 10.11.5 for Mathematica notebook<br />
 Windows 10 Home Version 1903 for R and Stant scripts
 
 ### Hardware requirements
+
 Our study requires only a standard computer with enough RAM to support the in-memory operations.
 
 ### Installation guide
+
 R Version 3.6.0 https://www.r-project.org/<br />
 R Studio Version 1.3.959 (Interface to R) https://rstudio.com/<br />
 rstan R package Version 2.19.3 (R interface to Stan) https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html<br />
