@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   4158115,      78544]
-NotebookOptionsPosition[   4149733,      78308]
-NotebookOutlinePosition[   4150143,      78326]
-CellTagsIndexPosition[   4150100,      78323]
+NotebookDataLength[   4177793,      78945]
+NotebookOptionsPosition[   4168868,      78695]
+NotebookOutlinePosition[   4169279,      78713]
+CellTagsIndexPosition[   4169236,      78710]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2962,8 +2962,9 @@ Cell[BoxData[
    RowBox[{"Print", "[", 
     RowBox[{"Style", "[", 
      RowBox[{
-     "\"\<Imported demography 10 age groups\>\"", ",", "18", ",", "Blue", 
-      ",", "\"\<Text\>\""}], "]"}], "]"}], "\[IndentingNewLine]", 
+     "\"\<Imported demography 10 age groups \
+(0-4,5-9,10-19,20-29,30-39,40-49,50-59,60-69,70-79,80+)\>\"", ",", "18", ",", 
+      "Blue", ",", "\"\<Text\>\""}], "]"}], "]"}], "\[IndentingNewLine]", 
    RowBox[{"DemographyData", "=", 
     RowBox[{"Flatten", "[", 
      RowBox[{"Import", "[", "\"\<data//DEMOGRAPHY NL 10.xlsx\>\"", "]"}], 
@@ -2981,6 +2982,28 @@ Cell[BoxData[
        RowBox[{"{", 
         RowBox[{"k", ",", "AgeGroups"}], "}"}]}], "]"}]}], ";"}], 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Imported contact matrix for all locations before the lockdown\>\"", 
+      ",", "18", ",", "Blue", ",", "\"\<Text\>\""}], "]"}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Reference:\>\"", ",", "18", ",", "Blue", ",", "\"\<Text\>\""}], 
+     "]"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<The impact of physical distancing measures against COVID-19 \
+transmission on contacts and mixing patterns in the Netherlands:\\n repeated \
+cross-sectional surveys in 2016/2017, April 2020 and June 2020.\nJantien A. \
+Backer, Liesbeth Mollema, R.A. Eric Vos, Don Klinkenberg, Fiona R.M. van der \
+Klis, Hester E. de Melker, Susan van den Hof, Jacco Wallinga.\nmedRxiv \
+2020.05.18.20101501; doi: https://doi.org/10.1101/2020.05.18.20101501\>\"", 
+      ",", "14", ",", "Gray", ",", "\"\<Text\>\""}], "]"}], "]"}], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"ContactDataAllLocationsBefore", "=", 
      RowBox[{
@@ -2988,18 +3011,77 @@ Cell[BoxData[
     ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"MatrixForm", "[", "ContactDataAllLocationsBefore", "]"}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Imported contact matrix for all locations after the lockdown\>\"", 
+      ",", "18", ",", "Blue", ",", "\"\<Text\>\""}], "]"}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Reference:\>\"", ",", "18", ",", "Blue", ",", "\"\<Text\>\""}], 
+     "]"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<The impact of physical distancing measures against COVID-19 \
+transmission on contacts and mixing patterns in the Netherlands:\\n repeated \
+cross-sectional surveys in 2016/2017, April 2020 and June 2020.\nJantien A. \
+Backer, Liesbeth Mollema, R.A. Eric Vos, Don Klinkenberg, Fiona R.M. van der \
+Klis, Hester E. de Melker, Susan van den Hof, Jacco Wallinga.\nmedRxiv \
+2020.05.18.20101501; doi: https://doi.org/10.1101/2020.05.18.20101501\>\"", 
+      ",", "14", ",", "Gray", ",", "\"\<Text\>\""}], "]"}], "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"ContactDataAllLocationsAfter", "=", 
      RowBox[{
      "Import", "[", "\"\<output//contactmatrix_distancing.csv\>\"", "]"}]}], 
-    ";"}], "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Imported school contact matrix (Feb-June 2006)\>\"", ",", "18", ",",
+       "Blue", ",", "\"\<Text\>\""}], "]"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Reference:\>\"", ",", "18", ",", "Blue", ",", "\"\<Text\>\""}], 
+     "]"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Prem K, Cook AR, Jit M (2017) Projecting social contact matrices in \
+152 countries using contact surveys and demographic data. PLOS Computational \
+Biology 13(9): e1005697. https://doi.org/10.1371/journal.pcbi.1005697\>\"", 
+      ",", "14", ",", "Gray", ",", "\"\<Text\>\""}], "]"}], "]"}], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"ContactDataSchools", "=", 
      RowBox[{
       RowBox[{
       "Import", "[", "\"\<data//contactmatrix_schools.xlsx\>\"", "]"}], 
       "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Imported contact matrix for all locations (Feb-June 2006)\>\"", ",",
+       "18", ",", "Blue", ",", "\"\<Text\>\""}], "]"}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Reference:\>\"", ",", "18", ",", "Blue", ",", "\"\<Text\>\""}], 
+     "]"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Prem K, Cook AR, Jit M (2017) Projecting social contact matrices in \
+152 countries using contact surveys and demographic data. PLOS Computational \
+Biology 13(9): e1005697. https://doi.org/10.1371/journal.pcbi.1005697\>\"", 
+      ",", "14", ",", "Gray", ",", "\"\<Text\>\""}], "]"}], "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"ContactDataAllLocations", "=", 
@@ -3028,21 +3110,22 @@ Cell[BoxData[
      RowBox[{"Print", "[", 
       RowBox[{"Style", "[", 
        RowBox[{
-       "\"\<Imported demography 17 age groups\>\"", ",", "18", ",", "Blue", 
-        ",", "\"\<Text\>\""}], "]"}], "]"}], ";"}], "*)"}], 
-   "\[IndentingNewLine]", 
+       "\"\<Imported demography 17 age groups \
+(0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59,60-64,65-\
+69,70-74,75-79,80+)\>\"", ",", "18", ",", "Blue", ",", "\"\<Text\>\""}], 
+       "]"}], "]"}], ";"}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"DemographyData17", "=", 
      RowBox[{"Flatten", "[", 
       RowBox[{"Import", "[", "\"\<data//DEMOGRAPHY NL 17.xlsx\>\"", "]"}], 
       "]"}]}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"MatrixTransform17to10", "[", "ContactMatrix17_", "]"}], ":=", 
+    RowBox[{"MatrixTransform16to10", "[", "ContactMatrix16_", "]"}], ":=", 
     RowBox[{"Block", "[", 
      RowBox[{
       RowBox[{"{", "ContactMatrix10", "}"}], ",", "\[IndentingNewLine]", 
       RowBox[{
-       RowBox[{"ContactMatrix10", "=", "ContactMatrix17"}], ";", 
+       RowBox[{"ContactMatrix10", "=", "ContactMatrix16"}], ";", 
        "\[IndentingNewLine]", 
        RowBox[{"ContactMatrix10", "//", "MatrixForm"}], ";", 
        "\[IndentingNewLine]", 
@@ -3317,7 +3400,7 @@ Cell[BoxData[
       "\"\<Text\>\""}], "]"}], "]"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"ContactDataSchools", "=", 
-     RowBox[{"MatrixTransform17to10", "[", "ContactDataSchools", "]"}]}], 
+     RowBox[{"MatrixTransform16to10", "[", "ContactDataSchools", "]"}]}], 
     ";"}], "\[IndentingNewLine]", 
    RowBox[{"ContactDataSchools", "//", "MatrixForm"}], "\[IndentingNewLine]", 
    
@@ -3335,10 +3418,10 @@ Cell[BoxData[
     RowBox[{
     "One", " ", "element", " ", "is", " ", "negative", " ", "which", " ", 
      "means", " ", "that", " ", "there", " ", "were", " ", "more", " ", 
-     "school", " ", "contacts", " ", "before", " ", "the", " ", "lockdown", 
-     " ", "than", " ", "the", " ", "number", " ", "of", " ", "contacts", " ", 
-     "in", " ", "all", " ", "locations"}], " ", "*)"}], "\[IndentingNewLine]",
-    "\[IndentingNewLine]", 
+     "school", " ", "contacts", " ", "in", " ", "2006", " ", "than", " ", 
+     "the", " ", "number", " ", "of", " ", "contacts", " ", "in", " ", "all", 
+     " ", "locations", " ", "before", " ", "the", " ", "lockdown", " ", "in", 
+     " ", "2020"}], " ", "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
     "===", "===", "===", "===", "===", "===", "===", "===", "===", "===", "===",
@@ -3351,7 +3434,7 @@ Cell[BoxData[
       "\"\<Text\>\""}], "]"}], "]"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"ContactDataAllLocations", "=", 
-     RowBox[{"MatrixTransform17to10", "[", "ContactDataAllLocations", "]"}]}],
+     RowBox[{"MatrixTransform16to10", "[", "ContactDataAllLocations", "]"}]}],
      ";"}], "\[IndentingNewLine]", 
    RowBox[{"ContactDataAllLocations", "//", "MatrixForm"}], 
    "\[IndentingNewLine]", 
@@ -3362,11 +3445,11 @@ Cell[BoxData[
     "===", "===", "===", "===", "===", "===", "===", "===", "===", "===", "===",
       "===", "===", "===", "===", "==="}], "*)"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
-   RowBox[{"(*", 
+   RowBox[{"(*", " ", 
     RowBox[{
-    "Ratio", " ", "of", " ", "the", " ", "school", " ", "contacts", " ", 
-     "and", " ", "all", " ", "contacts"}], " ", "*)"}], "\[IndentingNewLine]",
-    "\[IndentingNewLine]", 
+    "Ratio", " ", "of", " ", "the", " ", "school", " ", "contacts", " ", "in",
+      " ", "2006", " ", "and", " ", "all", " ", "contacts", " ", "in", " ", 
+     "2006"}], " ", "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"Print", "[", 
     RowBox[{"Style", "[", 
      RowBox[{
@@ -3383,6 +3466,19 @@ Cell[BoxData[
      RowBox[{
      "\"\<School Matrix RIVM\>\"", ",", "18", ",", "Blue", ",", 
       "\"\<Text\>\""}], "]"}], "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "The", " ", "school", " ", "contact", " ", "matrix", " ", "before", " ", 
+     "the", " ", "lockdown"}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "The", " ", "school", " ", "contacts", " ", "before", " ", "the", " ", 
+     "lockdown", " ", "in", " ", "2020", " ", "are", " ", "the", " ", "same", 
+     " ", "fraction", " ", "of", " ", "the", " ", "total", " ", "contacts", 
+     " ", "before", " ", "the", " ", "lockdown", " ", "in", " ", "2020", " ", 
+     "as", " ", "in", " ", "the", " ", "PLOS", " ", "data", " ", "for", " ", 
+     "2006"}], " ", "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"ContactDataSchoolsRIVM", "=", 
      RowBox[{"FactorMatrix", "*", "ContactDataAllLocationsBefore"}]}], ";"}], 
@@ -3542,8 +3638,8 @@ Cell[BoxData[
             RowBox[{"Automatic", ",", 
              RowBox[{"LegendMarkerSize", "\[Rule]", "250"}], ",", 
              RowBox[{
-             "LegendLabel", "\[Rule]", "\"\<Number of\\ncontacts\>\""}], ",", 
-             
+             "LegendLabel", "\[Rule]", 
+              "\"\<Number of\\ncontacts\\nper day\>\""}], ",", 
              RowBox[{"LabelStyle", "\[Rule]", 
               RowBox[{"Directive", "[", 
                RowBox[{"Black", ",", "17", ",", 
@@ -3786,11 +3882,10 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"format", "=", 
      RowBox[{"{", 
-      RowBox[{"\"\<.pdf\>\"", ",", "\"\<.eps\>\""}], "}"}]}], ";"}], 
-   RowBox[{"(*", 
-    RowBox[{"\"\<.jpg\>\"", ",", "\"\<.bmp\>\"", ",", "\"\<.png\>\""}], 
-    "*)"}], "\[IndentingNewLine]", 
-   RowBox[{
+      RowBox[{"\"\<.pdf\>\"", ",", "\"\<.eps\>\""}], "}"}]}], ";", 
+    RowBox[{"(*", 
+     RowBox[{"\"\<.jpg\>\"", ",", "\"\<.bmp\>\"", ",", "\"\<.png\>\""}], 
+     "*)"}], "\[IndentingNewLine]", 
     RowBox[{"FigNames", "=", 
      RowBox[{"{", 
       RowBox[{
@@ -3967,10 +4062,20 @@ Cell[BoxData[
    3.8160898932892847`*^9}, {3.817226003496945*^9, 3.817226016527149*^9}, {
    3.817226087249*^9, 3.8172261067911386`*^9}, {3.817226196996764*^9, 
    3.81722619852422*^9}, 3.8172264794520063`*^9, {3.8172269497000113`*^9, 
-   3.817227021872761*^9}}],
+   3.817227021872761*^9}, 3.8187593798965178`*^9, {3.8187752343831663`*^9, 
+   3.818775322006824*^9}, {3.818775694152412*^9, 3.8187756991227407`*^9}, {
+   3.818777000370566*^9, 3.81877702570821*^9}, {3.818778100690641*^9, 
+   3.8187781554634047`*^9}, {3.818778242597974*^9, 3.818778288938806*^9}, {
+   3.818778348835555*^9, 3.8187783490360737`*^9}, {3.818779588369689*^9, 
+   3.818779625920082*^9}, 3.8187807363483467`*^9, 3.818780779256349*^9, 
+   3.818780906711445*^9, {3.818781550169475*^9, 3.818781569544292*^9}, {
+   3.818781795551118*^9, 3.818781836708042*^9}, {3.818781910871936*^9, 
+   3.8187819921268673`*^9}, {3.8187836284518137`*^9, 3.818783636402174*^9}, 
+   3.818783692642634*^9}],
 
 Cell[BoxData[
- StyleBox["\<\"Imported demography 10 age groups\"\>", "Text",
+ StyleBox["\<\"Imported demography 10 age groups \
+(0-4,5-9,10-19,20-29,30-39,40-49,50-59,60-69,70-79,80+)\"\>", "Text",
   StripOnInput->False,
   LineColor->RGBColor[0, 0, 1],
   FrontFaceColor->RGBColor[0, 0, 1],
@@ -3984,7 +4089,10 @@ Cell[BoxData[
   3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
   3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
   3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
-  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9}],
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -3999,6 +4107,269 @@ Cell[BoxData[
   3.8153801533667097`*^9, 3.815383002322568*^9, 3.8155027587414494`*^9, 
   3.816086877090954*^9, 3.816089436209017*^9, 3.816089505444024*^9, 
   3.8160901397204742`*^9, 3.816093588258037*^9, 3.81618742159859*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ StyleBox["\<\"Imported contact matrix for all locations before the \
+lockdown\"\>", "Text",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.8187814673346243`*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Reference:\"\>", "Text",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467352661*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"The impact of physical distancing measures against COVID-19 \
+transmission on contacts and mixing patterns in the Netherlands:\\n repeated \
+cross-sectional surveys in 2016/2017, April 2020 and June 2020.\\nJantien A. \
+Backer, Liesbeth Mollema, R.A. Eric Vos, Don Klinkenberg, Fiona R.M. van der \
+Klis, Hester E. de Melker, Susan van den Hof, Jacco Wallinga.\\nmedRxiv \
+2020.05.18.20101501; doi: https://doi.org/10.1101/2020.05.18.20101501\"\>", 
+  "Text",
+  StripOnInput->False,
+  LineColor->GrayLevel[0.5],
+  FrontFaceColor->GrayLevel[0.5],
+  BackFaceColor->GrayLevel[0.5],
+  GraphicsColor->GrayLevel[0.5],
+  FontSize->14,
+  FontColor->GrayLevel[0.5]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467376466*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Imported contact matrix for all locations after the lockdown\"\
+\>", "Text",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.81878146740198*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Reference:\"\>", "Text",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467427148*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"The impact of physical distancing measures against COVID-19 \
+transmission on contacts and mixing patterns in the Netherlands:\\n repeated \
+cross-sectional surveys in 2016/2017, April 2020 and June 2020.\\nJantien A. \
+Backer, Liesbeth Mollema, R.A. Eric Vos, Don Klinkenberg, Fiona R.M. van der \
+Klis, Hester E. de Melker, Susan van den Hof, Jacco Wallinga.\\nmedRxiv \
+2020.05.18.20101501; doi: https://doi.org/10.1101/2020.05.18.20101501\"\>", 
+  "Text",
+  StripOnInput->False,
+  LineColor->GrayLevel[0.5],
+  FrontFaceColor->GrayLevel[0.5],
+  BackFaceColor->GrayLevel[0.5],
+  GraphicsColor->GrayLevel[0.5],
+  FontSize->14,
+  FontColor->GrayLevel[0.5]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467454596*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Imported school contact matrix (Feb-June 2006)\"\>", "Text",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467481042*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Reference:\"\>", "Text",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467502718*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Prem K, Cook AR, Jit M (2017) Projecting social contact \
+matrices in 152 countries using contact surveys and demographic data. PLOS \
+Computational Biology 13(9): e1005697. \
+https://doi.org/10.1371/journal.pcbi.1005697\"\>", "Text",
+  StripOnInput->False,
+  LineColor->GrayLevel[0.5],
+  FrontFaceColor->GrayLevel[0.5],
+  BackFaceColor->GrayLevel[0.5],
+  GraphicsColor->GrayLevel[0.5],
+  FontSize->14,
+  FontColor->GrayLevel[0.5]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467521523*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Imported contact matrix for all locations (Feb-June 2006)\"\>",
+   "Text",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.81878146754037*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Reference:\"\>", "Text",
+  StripOnInput->False,
+  LineColor->RGBColor[0, 0, 1],
+  FrontFaceColor->RGBColor[0, 0, 1],
+  BackFaceColor->RGBColor[0, 0, 1],
+  GraphicsColor->RGBColor[0, 0, 1],
+  FontSize->18,
+  FontColor->RGBColor[0, 0, 1]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467560008*^9}],
+
+Cell[BoxData[
+ StyleBox["\<\"Prem K, Cook AR, Jit M (2017) Projecting social contact \
+matrices in 152 countries using contact surveys and demographic data. PLOS \
+Computational Biology 13(9): e1005697. \
+https://doi.org/10.1371/journal.pcbi.1005697\"\>", "Text",
+  StripOnInput->False,
+  LineColor->GrayLevel[0.5],
+  FrontFaceColor->GrayLevel[0.5],
+  BackFaceColor->GrayLevel[0.5],
+  GraphicsColor->GrayLevel[0.5],
+  FontSize->14,
+  FontColor->GrayLevel[0.5]]], "Print",
+ CellChangeTimes->{3.814701651470809*^9, 3.8147040739198933`*^9, 
+  3.814967068223878*^9, 3.815307182396851*^9, 3.81531887022332*^9, 
+  3.8153284118883953`*^9, 3.81537111281785*^9, 3.8153712155014963`*^9, 
+  3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
+  3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
+  3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.81878146757801*^9}],
 
 Cell[BoxData[
  StyleBox["\<\"School Matrix PLOS\"\>", "Text",
@@ -4015,7 +4386,11 @@ Cell[BoxData[
   3.815371436833564*^9, 3.815371725853663*^9, 3.8153718299271173`*^9, 
   3.815380153201898*^9, 3.815383002254125*^9, 3.815502758592237*^9, 
   3.816086877071136*^9, 3.816089436132256*^9, 3.816089505415979*^9, 
-  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874219205523`*^9}],
+  3.8160901396834*^9, 3.816093588242647*^9, 3.8161874198178473`*^9, 
+  3.8187591915073338`*^9, 3.8187592291194*^9, 3.81876094881636*^9, 
+  3.818779638909898*^9, 3.818780002465006*^9, 3.818780046852087*^9, 
+  3.818780919562365*^9, 3.818781467594705*^9}]
+}, Open  ]],
 
 Cell[BoxData[
  TagBox[
@@ -4575,7 +4950,7 @@ vTPk8RIB/gtogfYd
           PaneBox[
            TagBox[
             GridBox[{{
-               StyleBox["\"Number of\\ncontacts\"", {
+               StyleBox["\"Number of\\ncontacts\\nper day\"", {
                  Directive[
                   GrayLevel[0], 17, 
                   Opacity[1]], FontFamily -> "Arial"}, Background -> 
@@ -4863,8 +5238,9 @@ dLk9fekTDEK9JpxVKiFZw97kpszEchPtVnGVcmiLFthL81fi/wAeG9yd
                   GrayLevel[0], Editable -> False, Selectable -> False], ",", 
                  "17", ",", 
                  RowBox[{"Opacity", "[", "1", "]"}]}], "]"}]}], ",", 
-           RowBox[{"LegendLabel", "\[Rule]", "\"Number of\\ncontacts\""}], 
-           ",", 
+           
+           RowBox[{"LegendLabel", "\[Rule]", 
+             "\"Number of\\ncontacts\\nper day\""}], ",", 
            RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
            RowBox[{"LegendMarkerSize", "\[Rule]", "250"}], ",", 
            RowBox[{"Ticks", "\[Rule]", 
@@ -4924,7 +5300,8 @@ dLk9fekTDEK9JpxVKiFZw97kpszEchPtVnGVcmiLFthL81fi/wAeG9yd
   3.815371436873472*^9, 3.8153717259075727`*^9, 3.815371829973854*^9, 
   3.8153801533667097`*^9, 3.815383002322568*^9, 3.8155027587414494`*^9, 
   3.816086877090954*^9, 3.816089436209017*^9, 3.816089505444024*^9, 
-  3.8160901397204742`*^9, 3.816093588258037*^9, 3.816187422227542*^9}],
+  3.8160901397204742`*^9, 3.816093588258037*^9, 3.81618742159859*^9, 
+  3.8187591916266003`*^9, 3.818759229534719*^9}],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{
@@ -5070,7 +5447,7 @@ AQrW4zDyOrewQ9QKuXz3qZYMIRifDa80PhiFQmRqQNBUM3YF2mbNOFPgPogr
           PaneBox[
            TagBox[
             GridBox[{{
-               StyleBox["\"Number of\\ncontacts\"", {
+               StyleBox["\"Number of\\ncontacts\\nper day\"", {
                  Directive[
                   GrayLevel[0], 17, 
                   Opacity[1]], FontFamily -> "Arial"}, Background -> 
@@ -5348,8 +5725,9 @@ HmQjrEKruk6tDnJNrra2NTScrJ2e83JggynuVcucoeFGdhdH7CENjFptK79/
                   GrayLevel[0], Editable -> False, Selectable -> False], ",", 
                  "17", ",", 
                  RowBox[{"Opacity", "[", "1", "]"}]}], "]"}]}], ",", 
-           RowBox[{"LegendLabel", "\[Rule]", "\"Number of\\ncontacts\""}], 
-           ",", 
+           
+           RowBox[{"LegendLabel", "\[Rule]", 
+             "\"Number of\\ncontacts\\nper day\""}], ",", 
            RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
            RowBox[{"LegendMarkerSize", "\[Rule]", "250"}], ",", 
            RowBox[{"Ticks", "\[Rule]", 
@@ -5401,7 +5779,8 @@ HmQjrEKruk6tDnJNrra2NTScrJ2e83JggynuVcucoeFGdhdH7CENjFptK79/
   3.815371436873472*^9, 3.8153717259075727`*^9, 3.815371829973854*^9, 
   3.8153801533667097`*^9, 3.815383002322568*^9, 3.8155027587414494`*^9, 
   3.816086877090954*^9, 3.816089436209017*^9, 3.816089505444024*^9, 
-  3.8160901397204742`*^9, 3.816093588258037*^9, 3.816187422635461*^9}],
+  3.8160901397204742`*^9, 3.816093588258037*^9, 3.81618742159859*^9, 
+  3.8187591916266003`*^9, 3.818759229662228*^9}],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{
@@ -5545,7 +5924,7 @@ CcoTdeuRSgXqPzKezziZtsPwNLQwjaf/H/POBU+dswie1jb5Mibpnt8kliai
           PaneBox[
            TagBox[
             GridBox[{{
-               StyleBox["\"Number of\\ncontacts\"", {
+               StyleBox["\"Number of\\ncontacts\\nper day\"", {
                  Directive[
                   GrayLevel[0], 17, 
                   Opacity[1]], FontFamily -> "Arial"}, Background -> 
@@ -5841,8 +6220,9 @@ Lfq5ZlGVUL/MCHQVLsMacISLzzLRMTpvk7NNBSZEAlrnWKWIuq8pnmPGROFM
                   GrayLevel[0], Editable -> False, Selectable -> False], ",", 
                  "17", ",", 
                  RowBox[{"Opacity", "[", "1", "]"}]}], "]"}]}], ",", 
-           RowBox[{"LegendLabel", "\[Rule]", "\"Number of\\ncontacts\""}], 
-           ",", 
+           
+           RowBox[{"LegendLabel", "\[Rule]", 
+             "\"Number of\\ncontacts\\nper day\""}], ",", 
            RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
            RowBox[{"LegendMarkerSize", "\[Rule]", "250"}], ",", 
            RowBox[{"Ticks", "\[Rule]", 
@@ -5895,7 +6275,8 @@ Lfq5ZlGVUL/MCHQVLsMacISLzzLRMTpvk7NNBSZEAlrnWKWIuq8pnmPGROFM
   3.815371436873472*^9, 3.8153717259075727`*^9, 3.815371829973854*^9, 
   3.8153801533667097`*^9, 3.815383002322568*^9, 3.8155027587414494`*^9, 
   3.816086877090954*^9, 3.816089436209017*^9, 3.816089505444024*^9, 
-  3.8160901397204742`*^9, 3.816093588258037*^9, 3.816187423195281*^9}],
+  3.8160901397204742`*^9, 3.816093588258037*^9, 3.81618742159859*^9, 
+  3.8187591916266003`*^9, 3.818759229791855*^9}],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{
@@ -6023,7 +6404,7 @@ NU7mHIFCd27GGJonJkpmTuPixfgbZLzFMg==
           PaneBox[
            TagBox[
             GridBox[{{
-               StyleBox["\"Number of\\ncontacts\"", {
+               StyleBox["\"Number of\\ncontacts\\nper day\"", {
                  Directive[
                   GrayLevel[0], 17, 
                   Opacity[1]], FontFamily -> "Arial"}, Background -> 
@@ -6316,8 +6697,9 @@ OkODjWOpL179ivkC6/Abo5eN6TBbqCvxQI2NLH/3kkCbz2Acic+gK9MhUcFV
                   GrayLevel[0], Editable -> False, Selectable -> False], ",", 
                  "17", ",", 
                  RowBox[{"Opacity", "[", "1", "]"}]}], "]"}]}], ",", 
-           RowBox[{"LegendLabel", "\[Rule]", "\"Number of\\ncontacts\""}], 
-           ",", 
+           
+           RowBox[{"LegendLabel", "\[Rule]", 
+             "\"Number of\\ncontacts\\nper day\""}], ",", 
            RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
            RowBox[{"LegendMarkerSize", "\[Rule]", "250"}], ",", 
            RowBox[{"Ticks", "\[Rule]", 
@@ -6375,7 +6757,8 @@ OkODjWOpL179ivkC6/Abo5eN6TBbqCvxQI2NLH/3kkCbz2Acic+gK9MhUcFV
   3.815371436873472*^9, 3.8153717259075727`*^9, 3.815371829973854*^9, 
   3.8153801533667097`*^9, 3.815383002322568*^9, 3.8155027587414494`*^9, 
   3.816086877090954*^9, 3.816089436209017*^9, 3.816089505444024*^9, 
-  3.8160901397204742`*^9, 3.816093588258037*^9, 3.816187423455852*^9}],
+  3.8160901397204742`*^9, 3.816093588258037*^9, 3.81618742159859*^9, 
+  3.8187591916266003`*^9, 3.818759229944729*^9}],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{
@@ -6503,7 +6886,7 @@ ZYLndGZYs2To33uy3imBEPd8YWQt63Od/gHdIFc5/gZnOsjs
           PaneBox[
            TagBox[
             GridBox[{{
-               StyleBox["\"Number of\\ncontacts\"", {
+               StyleBox["\"Number of\\ncontacts\\nper day\"", {
                  Directive[
                   GrayLevel[0], 17, 
                   Opacity[1]], FontFamily -> "Arial"}, Background -> 
@@ -6796,8 +7179,9 @@ OkODjWOpL179ivkC6/Abo5eN6TBbqCvxQI2NLH/3kkCbz2Acic+gK9MhUcFV
                   GrayLevel[0], Editable -> False, Selectable -> False], ",", 
                  "17", ",", 
                  RowBox[{"Opacity", "[", "1", "]"}]}], "]"}]}], ",", 
-           RowBox[{"LegendLabel", "\[Rule]", "\"Number of\\ncontacts\""}], 
-           ",", 
+           
+           RowBox[{"LegendLabel", "\[Rule]", 
+             "\"Number of\\ncontacts\\nper day\""}], ",", 
            RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
            RowBox[{"LegendMarkerSize", "\[Rule]", "250"}], ",", 
            RowBox[{"Ticks", "\[Rule]", 
@@ -6850,7 +7234,8 @@ OkODjWOpL179ivkC6/Abo5eN6TBbqCvxQI2NLH/3kkCbz2Acic+gK9MhUcFV
   3.815371436873472*^9, 3.8153717259075727`*^9, 3.815371829973854*^9, 
   3.8153801533667097`*^9, 3.815383002322568*^9, 3.8155027587414494`*^9, 
   3.816086877090954*^9, 3.816089436209017*^9, 3.816089505444024*^9, 
-  3.8160901397204742`*^9, 3.816093588258037*^9, 3.816187423969092*^9}],
+  3.8160901397204742`*^9, 3.816093588258037*^9, 3.81618742159859*^9, 
+  3.8187591916266003`*^9, 3.818759230696604*^9}],
 
 Cell[BoxData[
  TemplateBox[{GraphicsBox[{{
@@ -6978,7 +7363,7 @@ duydK7paKWKFCv8AYfnHjg==
           PaneBox[
            TagBox[
             GridBox[{{
-               StyleBox["\"Number of\\ncontacts\"", {
+               StyleBox["\"Number of\\ncontacts\\nper day\"", {
                  Directive[
                   GrayLevel[0], 17, 
                   Opacity[1]], FontFamily -> "Arial"}, Background -> 
@@ -7272,8 +7657,9 @@ OkODjWOpL179ivkC6/Abo5eN6TBbqCvxQI2NLH/3kkCbz2Acic+gK9MhUcFV
                   GrayLevel[0], Editable -> False, Selectable -> False], ",", 
                  "17", ",", 
                  RowBox[{"Opacity", "[", "1", "]"}]}], "]"}]}], ",", 
-           RowBox[{"LegendLabel", "\[Rule]", "\"Number of\\ncontacts\""}], 
-           ",", 
+           
+           RowBox[{"LegendLabel", "\[Rule]", 
+             "\"Number of\\ncontacts\\nper day\""}], ",", 
            RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
            RowBox[{"LegendMarkerSize", "\[Rule]", "250"}], ",", 
            RowBox[{"Ticks", "\[Rule]", 
@@ -7326,7 +7712,8 @@ OkODjWOpL179ivkC6/Abo5eN6TBbqCvxQI2NLH/3kkCbz2Acic+gK9MhUcFV
   3.815371436873472*^9, 3.8153717259075727`*^9, 3.815371829973854*^9, 
   3.8153801533667097`*^9, 3.815383002322568*^9, 3.8155027587414494`*^9, 
   3.816086877090954*^9, 3.816089436209017*^9, 3.816089505444024*^9, 
-  3.8160901397204742`*^9, 3.816093588258037*^9, 3.816187424097981*^9}]
+  3.8160901397204742`*^9, 3.816093588258037*^9, 3.81618742159859*^9, 
+  3.8187591916266003`*^9, 3.818759231106786*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -78307,7 +78694,7 @@ PYxjfRvHvIvp/x+x6quveE+1z1r2B5fmUUE=
 }, Open  ]]
 },
 WindowSize->{1280, 707},
-WindowMargins->{{3, Automatic}, {Automatic, 0}},
+WindowMargins->{{62, Automatic}, {Automatic, 0}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 4, \
@@ -78349,201 +78736,215 @@ Cell[128182, 2887, 860, 13, 67, "Subtitle"],
 Cell[129045, 2902, 1370, 29, 74, "Subtitle"],
 Cell[130418, 2933, 1060, 15, 67, "Subtitle"],
 Cell[CellGroupData[{
-Cell[131503, 2952, 45623, 1017, 2409, "Input"],
-Cell[177129, 3971, 783, 15, 30, "Print"],
-Cell[177915, 3988, 750, 12, 35, "Output"],
-Cell[178668, 4002, 768, 15, 29, "Print"],
-Cell[179439, 4019, 4013, 69, 203, "Output"],
-Cell[183455, 4090, 567, 9, 28, "Output"],
-Cell[184025, 4101, 773, 15, 29, "Print"],
-Cell[184801, 4118, 3669, 62, 189, "Output"],
-Cell[188473, 4182, 565, 9, 28, "Output"],
-Cell[189041, 4193, 766, 15, 29, "Print"],
-Cell[189810, 4210, 4010, 69, 203, "Output"],
-Cell[193823, 4281, 4010, 69, 203, "Output"],
-Cell[197836, 4352, 3469, 62, 183, "Output"],
-Cell[201308, 4416, 772, 15, 30, "Print"],
-Cell[202083, 4433, 25199, 493, 364, "Output"],
-Cell[227285, 4928, 24409, 475, 364, "Output"],
-Cell[251697, 5405, 25459, 492, 364, "Output"],
-Cell[277159, 5899, 24378, 478, 364, "Output"],
-Cell[301540, 6379, 24278, 473, 364, "Output"],
-Cell[325821, 6854, 24327, 474, 364, "Output"]
+Cell[131503, 2952, 51044, 1121, 3106, "Input"],
+Cell[182550, 4075, 1003, 19, 30, "Print"],
+Cell[183556, 4096, 750, 12, 35, "Output"],
+Cell[CellGroupData[{
+Cell[184331, 4112, 999, 19, 30, "Print"],
+Cell[185333, 4133, 944, 18, 29, "Print"],
+Cell[186280, 4153, 1364, 24, 83, "Print"],
+Cell[187647, 4179, 995, 19, 30, "Print"],
+Cell[188645, 4200, 944, 18, 29, "Print"],
+Cell[189592, 4220, 1364, 24, 83, "Print"],
+Cell[190959, 4246, 980, 18, 30, "Print"],
+Cell[191942, 4266, 944, 18, 29, "Print"],
+Cell[192889, 4286, 1139, 21, 45, "Print"],
+Cell[194031, 4309, 993, 19, 30, "Print"],
+Cell[195027, 4330, 944, 18, 29, "Print"],
+Cell[195974, 4350, 1138, 21, 45, "Print"],
+Cell[197115, 4373, 952, 18, 29, "Print"]
+}, Open  ]],
+Cell[198082, 4394, 4013, 69, 203, "Output"],
+Cell[202098, 4465, 567, 9, 28, "Output"],
+Cell[202668, 4476, 773, 15, 29, "Print"],
+Cell[203444, 4493, 3669, 62, 189, "Output"],
+Cell[207116, 4557, 565, 9, 28, "Output"],
+Cell[207684, 4568, 766, 15, 29, "Print"],
+Cell[208453, 4585, 4010, 69, 203, "Output"],
+Cell[212466, 4656, 4010, 69, 203, "Output"],
+Cell[216479, 4727, 3469, 62, 183, "Output"],
+Cell[219951, 4791, 772, 15, 30, "Print"],
+Cell[220726, 4808, 25281, 495, 364, "Output"],
+Cell[246010, 5305, 24491, 477, 364, "Output"],
+Cell[270504, 5784, 25541, 494, 364, "Output"],
+Cell[296048, 6280, 24460, 480, 364, "Output"],
+Cell[320511, 6762, 24360, 475, 364, "Output"],
+Cell[344874, 7239, 24409, 476, 364, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[350185, 7333, 13006, 289, 743, "Input"],
+Cell[369320, 7720, 13006, 289, 743, "Input"],
 Cell[CellGroupData[{
-Cell[363216, 7626, 3005, 48, 30, "Print"],
-Cell[366224, 7676, 2965, 47, 30, "Print"]
+Cell[382351, 8013, 3005, 48, 30, "Print"],
+Cell[385359, 8063, 2965, 47, 30, "Print"]
 }, Open  ]],
-Cell[369204, 7726, 2785, 41, 28, "Output"],
-Cell[371992, 7769, 2961, 47, 30, "Print"],
-Cell[374956, 7818, 3508, 53, 46, "Output"]
+Cell[388339, 8113, 2785, 41, 28, "Output"],
+Cell[391127, 8156, 2961, 47, 30, "Print"],
+Cell[394091, 8205, 3508, 53, 46, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[378525, 7878, 1334, 19, 108, "Title"],
+Cell[397660, 8265, 1334, 19, 108, "Title"],
 Cell[CellGroupData[{
-Cell[379884, 7901, 23700, 526, 658, "Input"],
-Cell[403587, 8429, 1808, 37, 131, "Output"],
-Cell[405398, 8468, 135724, 3626, 2039, "Output"],
-Cell[541125, 12096, 621068, 10241, 342, "Output"]
+Cell[399019, 8288, 23700, 526, 658, "Input"],
+Cell[422722, 8816, 1808, 37, 131, "Output"],
+Cell[424533, 8855, 135724, 3626, 2039, "Output"],
+Cell[560260, 12483, 621068, 10241, 342, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1162230, 22342, 11372, 300, 471, "Input"],
-Cell[1173605, 22644, 604, 9, 28, "Output"],
-Cell[1174212, 22655, 832, 14, 28, "Output"],
-Cell[1175047, 22671, 1694, 35, 80, "Output"],
-Cell[1176744, 22708, 109848, 3005, 1682, "Output"]
+Cell[1181365, 22729, 11372, 300, 471, "Input"],
+Cell[1192740, 23031, 604, 9, 28, "Output"],
+Cell[1193347, 23042, 832, 14, 28, "Output"],
+Cell[1194182, 23058, 1694, 35, 80, "Output"],
+Cell[1195879, 23095, 109848, 3005, 1682, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1286641, 25719, 1330, 19, 108, "Title"],
+Cell[1305776, 26106, 1330, 19, 108, "Title"],
 Cell[CellGroupData[{
-Cell[1287996, 25742, 24002, 601, 1148, "Input"],
-Cell[1312001, 26345, 2514, 39, 30, "Print"],
-Cell[1314518, 26386, 4389, 77, 114, "Output"],
-Cell[1318910, 26465, 2499, 39, 30, "Print"],
-Cell[1321412, 26506, 2422, 35, 28, "Output"],
-Cell[1323837, 26543, 2524, 40, 30, "Print"],
-Cell[1326364, 26585, 11031, 253, 125, "Output"],
-Cell[1337398, 26840, 2498, 39, 30, "Print"],
-Cell[1339899, 26881, 2504, 36, 28, "Output"],
-Cell[1342406, 26919, 2520, 39, 30, "Print"],
-Cell[1344929, 26960, 3311, 55, 63, "Output"],
-Cell[1348243, 27017, 2460, 36, 35, "Output"],
-Cell[1350706, 27055, 2249, 31, 28, "Output"],
-Cell[1352958, 27088, 135916, 2540, 373, "Output"],
-Cell[1488877, 29630, 2534, 40, 30, "Print"],
-Cell[1491414, 29672, 11410, 261, 125, "Output"],
-Cell[1502827, 29935, 2501, 39, 30, "Print"],
-Cell[1505331, 29976, 2502, 36, 28, "Output"],
-Cell[1507836, 30014, 138357, 2560, 353, "Output"],
-Cell[1646196, 32576, 2542, 40, 30, "Print"],
-Cell[1648741, 32618, 11396, 261, 159, "Output"],
-Cell[1660140, 32881, 2499, 39, 30, "Print"],
-Cell[1662642, 32922, 2414, 35, 28, "Output"],
-Cell[1665059, 32959, 111011, 2064, 354, "Output"]
+Cell[1307131, 26129, 24002, 601, 1148, "Input"],
+Cell[1331136, 26732, 2514, 39, 30, "Print"],
+Cell[1333653, 26773, 4389, 77, 114, "Output"],
+Cell[1338045, 26852, 2499, 39, 30, "Print"],
+Cell[1340547, 26893, 2422, 35, 28, "Output"],
+Cell[1342972, 26930, 2524, 40, 30, "Print"],
+Cell[1345499, 26972, 11031, 253, 125, "Output"],
+Cell[1356533, 27227, 2498, 39, 30, "Print"],
+Cell[1359034, 27268, 2504, 36, 28, "Output"],
+Cell[1361541, 27306, 2520, 39, 30, "Print"],
+Cell[1364064, 27347, 3311, 55, 63, "Output"],
+Cell[1367378, 27404, 2460, 36, 35, "Output"],
+Cell[1369841, 27442, 2249, 31, 28, "Output"],
+Cell[1372093, 27475, 135916, 2540, 373, "Output"],
+Cell[1508012, 30017, 2534, 40, 30, "Print"],
+Cell[1510549, 30059, 11410, 261, 125, "Output"],
+Cell[1521962, 30322, 2501, 39, 30, "Print"],
+Cell[1524466, 30363, 2502, 36, 28, "Output"],
+Cell[1526971, 30401, 138357, 2560, 353, "Output"],
+Cell[1665331, 32963, 2542, 40, 30, "Print"],
+Cell[1667876, 33005, 11396, 261, 159, "Output"],
+Cell[1679275, 33268, 2499, 39, 30, "Print"],
+Cell[1681777, 33309, 2414, 35, 28, "Output"],
+Cell[1684194, 33346, 111011, 2064, 354, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1776119, 35029, 1445, 24, 332, "Title"],
-Cell[1777567, 35055, 13828, 309, 590, "Input"],
+Cell[1795254, 35416, 1445, 24, 332, "Title"],
+Cell[1796702, 35442, 13828, 309, 590, "Input"],
 Cell[CellGroupData[{
-Cell[1791420, 35368, 3724, 100, 369, "Input"],
+Cell[1810555, 35755, 3724, 100, 369, "Input"],
 Cell[CellGroupData[{
-Cell[1795169, 35472, 510, 11, 30, "Print"],
-Cell[1795682, 35485, 428, 10, 30, "Print"]
+Cell[1814304, 35859, 510, 11, 30, "Print"],
+Cell[1814817, 35872, 428, 10, 30, "Print"]
 }, Open  ]],
-Cell[1796125, 35498, 546, 10, 28, "Output"],
-Cell[1796674, 35510, 3865, 77, 439, "Output"],
-Cell[1800542, 35589, 423, 10, 30, "Print"],
-Cell[1800968, 35601, 549, 10, 28, "Output"],
-Cell[1801520, 35613, 11877, 331, 438, "Output"],
-Cell[1813400, 35946, 424, 10, 29, "Print"],
-Cell[1813827, 35958, 547, 10, 28, "Output"],
-Cell[1814377, 35970, 13923, 387, 439, "Output"],
-Cell[1828303, 36359, 424, 10, 29, "Print"],
-Cell[1828730, 36371, 548, 10, 28, "Output"],
-Cell[1829281, 36383, 14000, 389, 443, "Output"]
+Cell[1815260, 35885, 546, 10, 28, "Output"],
+Cell[1815809, 35897, 3865, 77, 439, "Output"],
+Cell[1819677, 35976, 423, 10, 30, "Print"],
+Cell[1820103, 35988, 549, 10, 28, "Output"],
+Cell[1820655, 36000, 11877, 331, 438, "Output"],
+Cell[1832535, 36333, 424, 10, 29, "Print"],
+Cell[1832962, 36345, 547, 10, 28, "Output"],
+Cell[1833512, 36357, 13923, 387, 439, "Output"],
+Cell[1847438, 36746, 424, 10, 29, "Print"],
+Cell[1847865, 36758, 548, 10, 28, "Output"],
+Cell[1848416, 36770, 14000, 389, 443, "Output"]
 }, Open  ]],
-Cell[1843296, 36775, 10034, 229, 471, "Input"],
-Cell[1853333, 37006, 651, 14, 63, "Input"],
+Cell[1862431, 37162, 10034, 229, 471, "Input"],
+Cell[1872468, 37393, 651, 14, 63, "Input"],
 Cell[CellGroupData[{
-Cell[1854009, 37024, 92, 1, 28, "Input"],
+Cell[1873144, 37411, 92, 1, 28, "Input"],
 Cell[CellGroupData[{
-Cell[1854126, 37029, 417, 10, 30, "Print"],
-Cell[1854546, 37041, 331, 9, 29, "Print"]
+Cell[1873261, 37416, 417, 10, 30, "Print"],
+Cell[1873681, 37428, 331, 9, 29, "Print"]
 }, Open  ]],
-Cell[1854892, 37053, 2016, 43, 97, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1856945, 37101, 93, 1, 28, "Input"],
-Cell[CellGroupData[{
-Cell[1857063, 37106, 417, 10, 30, "Print"],
-Cell[1857483, 37118, 331, 9, 29, "Print"]
-}, Open  ]],
-Cell[1857829, 37130, 2004, 43, 97, "Output"]
+Cell[1874027, 37440, 2016, 43, 97, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1859870, 37178, 91, 1, 28, "Input"],
+Cell[1876080, 37488, 93, 1, 28, "Input"],
 Cell[CellGroupData[{
-Cell[1859986, 37183, 417, 10, 30, "Print"],
-Cell[1860406, 37195, 331, 9, 29, "Print"]
+Cell[1876198, 37493, 417, 10, 30, "Print"],
+Cell[1876618, 37505, 331, 9, 29, "Print"]
 }, Open  ]],
-Cell[1860752, 37207, 2011, 43, 97, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1862800, 37255, 94, 1, 28, "Input"],
-Cell[CellGroupData[{
-Cell[1862919, 37260, 466, 11, 30, "Print"],
-Cell[1863388, 37273, 380, 10, 29, "Print"]
-}, Open  ]],
-Cell[1863783, 37286, 2052, 44, 97, "Output"]
+Cell[1876964, 37517, 2004, 43, 97, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1865872, 37335, 17022, 444, 777, "Input"],
-Cell[1882897, 37781, 3978, 90, 322, "Output"],
-Cell[1886878, 37873, 3975, 91, 322, "Output"]
+Cell[1879005, 37565, 91, 1, 28, "Input"],
+Cell[CellGroupData[{
+Cell[1879121, 37570, 417, 10, 30, "Print"],
+Cell[1879541, 37582, 331, 9, 29, "Print"]
+}, Open  ]],
+Cell[1879887, 37594, 2011, 43, 97, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1890890, 37969, 15957, 413, 743, "Input"],
-Cell[1906850, 38384, 3744, 86, 322, "Output"],
-Cell[1910597, 38472, 3736, 87, 322, "Output"]
-}, Open  ]],
-Cell[1914348, 38562, 5919, 125, 250, "Input"],
+Cell[1881935, 37642, 94, 1, 28, "Input"],
 Cell[CellGroupData[{
-Cell[1920292, 38691, 1217, 28, 165, "Input"],
-Cell[CellGroupData[{
-Cell[1921534, 38723, 443, 10, 30, "Print"],
-Cell[1921980, 38735, 357, 9, 29, "Print"]
+Cell[1882054, 37647, 466, 11, 30, "Print"],
+Cell[1882523, 37660, 380, 10, 29, "Print"]
 }, Open  ]],
-Cell[1922352, 38747, 2026, 43, 97, "Output"],
-Cell[1924381, 38792, 359, 9, 29, "Print"],
-Cell[1924743, 38803, 2024, 43, 97, "Output"],
-Cell[1926770, 38848, 359, 9, 29, "Print"],
-Cell[1927132, 38859, 2034, 43, 97, "Output"]
+Cell[1882918, 37673, 2052, 44, 97, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1929203, 38907, 16166, 423, 590, "Input"],
-Cell[1945372, 39332, 3193, 69, 343, "Output"],
-Cell[1948568, 39403, 3192, 69, 343, "Output"],
-Cell[1951763, 39474, 3191, 69, 343, "Output"]
+Cell[1885007, 37722, 17022, 444, 777, "Input"],
+Cell[1902032, 38168, 3978, 90, 322, "Output"],
+Cell[1906013, 38260, 3975, 91, 322, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1954991, 39548, 3001, 81, 250, "Input"],
-Cell[1957995, 39631, 239, 3, 28, "Output"],
-Cell[1958237, 39636, 238, 3, 28, "Output"],
-Cell[1958478, 39641, 238, 3, 28, "Output"],
-Cell[1958719, 39646, 239, 3, 28, "Output"],
-Cell[1958961, 39651, 237, 3, 28, "Output"],
-Cell[1959201, 39656, 238, 3, 28, "Output"]
+Cell[1910025, 38356, 15957, 413, 743, "Input"],
+Cell[1925985, 38771, 3744, 86, 322, "Output"],
+Cell[1929732, 38859, 3736, 87, 322, "Output"]
+}, Open  ]],
+Cell[1933483, 38949, 5919, 125, 250, "Input"],
+Cell[CellGroupData[{
+Cell[1939427, 39078, 1217, 28, 165, "Input"],
+Cell[CellGroupData[{
+Cell[1940669, 39110, 443, 10, 30, "Print"],
+Cell[1941115, 39122, 357, 9, 29, "Print"]
+}, Open  ]],
+Cell[1941487, 39134, 2026, 43, 97, "Output"],
+Cell[1943516, 39179, 359, 9, 29, "Print"],
+Cell[1943878, 39190, 2024, 43, 97, "Output"],
+Cell[1945905, 39235, 359, 9, 29, "Print"],
+Cell[1946267, 39246, 2034, 43, 97, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1959476, 39664, 19186, 443, 641, "Input"],
-Cell[1978665, 40109, 181240, 3212, 714, "Output"]
+Cell[1948338, 39294, 16166, 423, 590, "Input"],
+Cell[1964507, 39719, 3193, 69, 343, "Output"],
+Cell[1967703, 39790, 3192, 69, 343, "Output"],
+Cell[1970898, 39861, 3191, 69, 343, "Output"]
 }, Open  ]],
-Cell[2159920, 43324, 1549, 24, 97, "Subtitle",
+Cell[CellGroupData[{
+Cell[1974126, 39935, 3001, 81, 250, "Input"],
+Cell[1977130, 40018, 239, 3, 28, "Output"],
+Cell[1977372, 40023, 238, 3, 28, "Output"],
+Cell[1977613, 40028, 238, 3, 28, "Output"],
+Cell[1977854, 40033, 239, 3, 28, "Output"],
+Cell[1978096, 40038, 237, 3, 28, "Output"],
+Cell[1978336, 40043, 238, 3, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1978611, 40051, 19186, 443, 641, "Input"],
+Cell[1997800, 40496, 181240, 3212, 714, "Output"]
+}, Open  ]],
+Cell[2179055, 43711, 1549, 24, 97, "Subtitle",
  CellGroupingRules->{GroupTogetherGrouping, 10001.}],
 Cell[CellGroupData[{
-Cell[2161494, 43352, 5963, 139, 199, "Input"],
-Cell[2167460, 43493, 1874829, 32769, 1386, "Output"]
+Cell[2180629, 43739, 5963, 139, 199, "Input"],
+Cell[2186595, 43880, 1874829, 32769, 1386, "Output"]
 }, Open  ]],
-Cell[4042304, 76265, 1579, 25, 97, "Subtitle",
+Cell[4061439, 76652, 1579, 25, 97, "Subtitle",
  CellGroupingRules->{GroupTogetherGrouping, 10001.}],
 Cell[CellGroupData[{
-Cell[4043908, 76294, 8107, 190, 437, "Input"],
-Cell[4052018, 76486, 1811, 26, 28, "Output"]
+Cell[4063043, 76681, 8107, 190, 437, "Input"],
+Cell[4071153, 76873, 1811, 26, 28, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4053878, 76518, 1446, 20, 108, "Title"],
-Cell[4055327, 76540, 1681, 26, 97, "Subtitle",
+Cell[4073013, 76905, 1446, 20, 108, "Title"],
+Cell[4074462, 76927, 1681, 26, 97, "Subtitle",
  CellGroupingRules->{GroupTogetherGrouping, 10001.}],
 Cell[CellGroupData[{
-Cell[4057033, 76570, 12041, 315, 638, "Input"],
-Cell[4069077, 76887, 80628, 1417, 507, "Output"]
+Cell[4076168, 76957, 12041, 315, 638, "Input"],
+Cell[4088212, 77274, 80628, 1417, 507, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
