@@ -60,6 +60,7 @@ Analysis of the model was performed using Mathematica Version Number 10.0.2.0 on
 ### Figures
 
 Figures for the manuscript were produced in the notebook SchoolAnalyses.nb. Figures can be found in the `figures` directory.
+Notebook JointPosteriorPlot.ipynb produces Figure S5 of the manuscript (posterior correlations between the parameters). 
 
 ### Output
 
