@@ -258,7 +258,7 @@ model {
 
 generated quantities {
   real log_lik = sum(log_likes_hosp) + sum(log_likes_sero);           // estimates WBIC when mode = 1
-  real[A*numdays_all] log_lik_vec = 
+  real log_lik_vec[A*numdays_all] = 
       append_array(to_array_1d(log_likes_hosp), to_array_1d(log_likes_sero));
   real expected_hospitalisations[numdayshosp, A];   // for credible intervals
   int simulated_hospitalisations[numdayshosp, A];   // for prediction intervals of hospitalisations
