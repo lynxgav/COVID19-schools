@@ -41,7 +41,7 @@ We used publicly available data from the Statistics Netherlands (CBS): https://w
 
 ### Hospitalization data
 
-The hospital data included COVID-19 hospitalizations by date of admission and stratified by age in the Netherlands (OSIRIS database). The applications for this dataset should be forwarded to the National Institute for Public Health and the Environment (COVID-19EPI@rivm.nl).
+The hospital data included COVID-19 hospitalizations by date of admission and stratified by age in the Netherlands (OSIRIS database). 
 
 ## Model 
 
