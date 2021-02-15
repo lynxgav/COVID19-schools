@@ -1,7 +1,7 @@
 # COVID19-schools
 
 ## DOI for this GitHub repository
-doi: [10.5281/zenodo.4541431](10.5281/zenodo.4541431)
+doi: https://doi.org/10.5281/zenodo.4541431
 
 ## Overview
 
@@ -23,7 +23,7 @@ We digitized data from the publication
 
 > Vos ERA, den Hartog G, Schepp RM, *et al*
   Nationwide seroprevalence of SARS-CoV-2 and identification of risk factors in the general population of the Netherlands during the first epidemic wave
-  *J Epidemiol Community Health* Published Online First: 28 November 2020. doi: [10.1136/jech-2020-215678](10.1136/jech-2020-215678)
+  *J Epidemiol Community Health* Published Online First: 28 November 2020. doi: https://doi.org/10.1136/jech-2020-215678
 
 ### Contact matrices
 
@@ -36,7 +36,7 @@ We used contact patterns from the preprint
   
 The school-specific contact matrix was taken from the publication 
 
-> Prem K, Cook AR, Jit M. Projecting social contact matrices in 152 countries using contact surveys and demographic data. *PLOS Computational Biology* 2017;13(9):1-21. doi: [10.1371/journal.pcbi.1005697](10.1371/journal.pcbi.1005697).
+> Prem K, Cook AR, Jit M. Projecting social contact matrices in 152 countries using contact surveys and demographic data. *PLOS Computational Biology* 2017;13(9):1-21. doi: https://doi.org/10.1371/journal.pcbi.1005697
 
 ### Demographic data
 
@@ -54,7 +54,7 @@ Model inference was done with R Version 3.6.0 using R Studio Version 1.3.959 (In
 
 > van Boven M, Teirlinck AC, Meijer A, Hooiveld M, van Dorp CH, Reeves RM, Campbell H, van der Hoek W; RESCEU Investigators. 
   Estimating Transmission Parameters for Respiratory Syncytial Virus and Predicting the Impact of Maternal and Pediatric Vaccination. 
-  *J Infect Dis.* 2020 Oct 7;222(Supplement_7):S688-S694. doi: [10.1093/infdis/jiaa424](10.1093/infdis/jiaa424)
+  *J Infect Dis.* 2020 Oct 7;222(Supplement_7):S688-S694. doi: https://doi.org/10.1093/infdis/jiaa424
 
 ### Analysis
 
