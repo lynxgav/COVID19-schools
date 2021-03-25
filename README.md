@@ -5,12 +5,11 @@ doi: https://doi.org/10.5281/zenodo.4541431
 
 ## Overview
 
-We used an age-structured model fitted to age-specific seroprevalence and hospital admission data from the Netherlands to investigate the impact of reducing school and other (non-school-related) contacts on controlling the COVID-19 pandemic. 
+We investigate the impact of reducing school and other (non-school-related) contacts on COVID-19 control using an age-structured model fitted to age-specific seroprevalence and hospital admission data from the Netherlands. 
 
 The analyses were published as
 
-> Model-based evaluation of school- and non-school-related measures to control the COVID-19 pandemic
-Ganna Rozhnova, Christiaan H. van Dorp, Patricia Bruijning-Verhagen, Martin C.J. Bootsma, Janneke H.H.M. van de Wijgert, Marc J.M. Bonten, Mirjam E. Kretzschmar. Nature Communications (In print). medRxiv 2020.12.07.20245506; doi: https://doi.org/10.1101/2020.12.07.20245506
+> Rozhnova G, van Dorp CH, Bruijning-Verhagen P, Bootsma MCJ, van de Wijgert JHHM, Bonten MJM, Kretzschmar ME. Model-based evaluation of school- and non-school-related measures to control the COVID-19 pandemic. Nature Communications. 2021;12(1):1614. https://doi.org/10.1038/s41467-021-21899-6.
 
 ## Data
 
